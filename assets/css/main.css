@@ -610,6 +610,11 @@ div.row#carousel-eu-container {
   align-items: center;
   justify-content: flex-start; }
 
+.eu-image-center {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 .eu-image {
   max-height: 100px;
   width: auto;
