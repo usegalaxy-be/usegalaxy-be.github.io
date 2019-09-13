@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Galaxy Europe | ELIXIR-Belgium</title>
+  <meta property="og:title" content="ELIXIR-Belgium" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
+  <meta name="description" content="The European Galaxy Instance">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+
+
+
+  <link rel="canonical" href="https://galaxyproject.eu/">
+  <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
+  <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
+
+  <link href="/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="/assets/js/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+</head>
+
+
+    
+    
+    
+
+  <body class="">
+    <div id="wrap">
+      <div id="main">
+        <div class="navbar">
+
+  <div class="container">
+    
+    
+
+    
+    
+    
+
+    
+
+    <div class="navbar-header">
+      <div class="navbar-brand">
+        
+        <img alt="galaxy eu logo" src="/assets/media/galaxy-eu-logo.svg" style="height: 20px"/>
+        
+      </div>
+
+      <a class="navbar-brand" href="/" style="padding-left: 6px">
+        Galaxy Europe
+      </a>
+      
+    </div>
+
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Member Sites <span class="caret"></span></a>
+             <ul class="dropdown-menu">
+              
+                <li>
+                  <a class="page-link" href="/belgium/">Belgium</a>
+                </li>
+              
+             </ul>
+           </li>
+
+          
+          
+            <li>
+              <a class="page-link" href="/news">News</a>
+            </li>
+          
+            <li>
+              <a class="page-link" href="/events">Events</a>
+            </li>
+          
+            <li>
+              <a class="page-link" href="/people">People</a>
+            </li>
+          
+            <li>
+              <a class="page-link" href="/about">About</a>
+            </li>
+          
+          
+        </ul>
+      </div>
+  </div>
+</div>
+
+        <div class="container" id="maincontainer">
+          <div class="row eu-image-box">
+	<a href="https://www.elixir-belgium.org/" target="_blank">
+		<img src="/assets/media/ELIXIR_BELGIUM_white_background.png" class="img-responsive eu-image" />
+	</a>
+	<a href="https://www.ugent.be/en" target="_blank">
+		<img src="/assets/media/UGent_EN.png" class="img-responsive eu-image" />
+	</a>
+	<a href="https://www.vscentrum.be/" target="_blank">
+		<img src="/assets/media/logo_VSC.svg" class="img-responsive eu-image" />
+	</a>
+	<a href="http://www.vib.be/en/pages/default.aspx" target="_blank">
+		<img src="/assets/media/vib_rf_plant_systems_biology_rgb_pos.png" class="img-responsive eu-image" />
+	</a>
+</div>
+
+<h1 id="how-to-use-galaxy">How to use Galaxy?</h1>
+
+<h2 id="tools">Tools</h2>
+
+<p>In the left panel of this page you will find the list of available tools, you can see this page at any point by clicking ‘Analyze Data’ in the top menu.</p>
+
+<h2 id="history">History</h2>
+
+<p>The history of your current data analysis is shown in the right panel. A good practice when running multiple analysis in parallel is to create several histories and give each one a unique name.
+You can click on ‘View all histories’ button (upper right corner in histories panel) to get an overview and switch between the current histories.</p>
+
+<h2 id="input-data">Input Data</h2>
+
+<p>Every analysis starts with getting the input data into your current history (right panel). To do this you can upload your own input files or use shared datasets.
+To upload files from your computer or instruct Galaxy to download files from the web you have to use of the upload tool: Get data (tool panel on the left) → upload file. Please DO NOT UPLOAD LARGE FILES (~GB), but contact the administrator to create a central data repository!
+To use available shared data you have to click on Shared data (top menu) → Data Libraries. You can then browse the available libraries and select the file/s you want to use. By clicking ‘to History’ button and choosing the desired History name you will import these files and make them available to use as input for future analysis.</p>
+
+<h2 id="execution">Execution</h2>
+
+<p>To run a job select the tool from tool panel on the left, then the corresponding interface will be loaded and you will be able to select corresponding input data and (re)define parameters.
+Please read carefully the labels and help text next to the input fields. After clicking Execute you will be able to see entries for each  in your history.
+The color of a dataset designates the current status of the underlying job</p>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Color</th>
+      <th>State</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span style="color: gray">Gray</span></td>
+      <td>The job is being evaluated to run (new dataset) or is queued. Allow this to complete.</td>
+    </tr>
+    <tr>
+      <td><span style="color: orange">Yellow</span></td>
+      <td>The job is executing.</td>
+    </tr>
+    <tr>
+      <td><span style="color: green">Green</span></td>
+      <td>Successful processing.</td>
+    </tr>
+    <tr>
+      <td><span style="color: red">Red</span></td>
+      <td>The job has failed.</td>
+    </tr>
+    <tr>
+      <td><span style="color: blue">Blue</span></td>
+      <td>The job is paused. This indicates either a problem with an input (a previous step in the workflow may have failed) or that you have exceeded disk quota set by the administrator of the Galaxy instance you are working on.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="workflows">Workflows</h1>
+
+<p>You can automate your analysis pipeline by using workflows composed of several tools linked by their input/output data. In the Workflows section (upper menu) you can see a list of current workflows and also create your own ones.
+It is also possible (and highly recommended) to use the shared, and widely tested, workflows available under Shared Data (top menu) → workflows. To use one of these you first need to import it to your workflows list by clicking on the name and selecting Import. To execute any workflow listed under your workflows first click on it and select run, then choose the input data as with any tool.</p>
+
+<div class="row">
+  <div class="col-sm-6">
+    <h2><a href="news">News</a></h2>
+    <div class="">
+  <div class="list-group">
+    
+    
+
+    
+
+    
+
+    
+
+    
+      
+        
+        <a class="list-group-item border-freiburg" href="/posts/2019/09/07/tool-update/">
+
+        <p class="list-group-item-text">Sep 7, 2019</p>
+        <h4 class="list-group-item-heading">
+          
+
+
+
+
+
+	<i class="fa fa-wrench" aria-hidden="true"></i>
+
+
+
+
+
+
+          UseGalaxy.eu Tool Updates for 2019-09-07
+        </h4>
+      </a>
+    
+      
+        
+        <a class="list-group-item border-freiburg" href="/posts/2019/09/06/ATACseqTutorial/">
+
+        <p class="list-group-item-text">Sep 6, 2019</p>
+        <h4 class="list-group-item-heading">
+          
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+          First ATACseq training material!
+        </h4>
+      </a>
+    
+      
+        
+        <a class="list-group-item border-freiburg" href="/posts/2019/08/31/tool-update/">
+
+        <p class="list-group-item-text">Aug 31, 2019</p>
+        <h4 class="list-group-item-heading">
+          
+
+
+
+
+
+	<i class="fa fa-wrench" aria-hidden="true"></i>
+
+
+
+
+
+
+          UseGalaxy.eu Tool Updates for 2019-08-31
+        </h4>
+      </a>
+    
+      
+        
+        <a class="list-group-item border-freiburg" href="https://galaxyproject.org/news/2019-09-galaxy-update/" target="_blank" rel="noopener">
+
+        <p class="list-group-item-text">Aug 30, 2019</p>
+        <h4 class="list-group-item-heading">
+          
+	<i class="fa fa-external-link" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+
+
+          Galactic September News
+        </h4>
+      </a>
+    
+      
+        
+        <a class="list-group-item border-freiburg" href="/posts/2019/08/28/TIaaS-update/" target="_blank" rel="noopener">
+
+        <p class="list-group-item-text">Aug 28, 2019</p>
+        <h4 class="list-group-item-heading">
+          
+
+
+
+
+
+
+	<i class="fa fa-gear" aria-hidden="true"></i>
+
+
+
+
+
+          TIaaS Queue Status Update
+        </h4>
+      </a>
+    
+      
+        
+        <a class="list-group-item border-freiburg" href="/posts/2019/08/24/tool-update/" target="_blank" rel="noopener">
+
+        <p class="list-group-item-text">Aug 24, 2019</p>
+        <h4 class="list-group-item-heading">
+          
+
+
+
+
+
+	<i class="fa fa-wrench" aria-hidden="true"></i>
+
+
+
+
+
+
+          UseGalaxy.eu Tool Updates for 2019-08-24
+        </h4>
+      </a>
+    
+  </div>
+</div>
+
+  </div>
+  <div class="col-sm-6">
+    <h2><a href="events">Events</a></h2>
+    <div class="">
+  <div class="list-group">
+    
+    
+
+    
+
+    
+
+    
+
+    
+      
+      
+      <a class="list-group-item border-freiburg" href="/event/2019-08-05-destair-training-freiburg/" target="_blank" rel="noopener">
+        <p class="list-group-item-text">
+        
+        Oct 9, 2019 - Oct 11, 2019
+        
+        </p>
+
+        <h4 class="list-group-item-heading">
+          <i class="fa fa-calendar" aria-hidden="true"></i>
+          
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+          Galaxy for linking Bisulfite sequencing with RNA sequencing
+        </h4>
+      </a>
+    
+      
+      
+      <a class="list-group-item border-freiburg" href="https://galaxy-carpentries.github.io/gallantries/event/2019-08-27-second-gallantries-workshop/" target="_blank" rel="noopener">
+        <p class="list-group-item-text">
+        
+        Oct 7, 2019 - Oct 9, 2019
+        
+        </p>
+
+        <h4 class="list-group-item-heading">
+          <i class="fa fa-calendar" aria-hidden="true"></i>
+          
+	<i class="fa fa-external-link" aria-hidden="true"></i>
+
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+          RNA-seq workshop for beginners: from sequences to visualization using Galaxy and R
+        </h4>
+      </a>
+    
+      
+      
+      <a class="list-group-item border-freiburg" href="/event/2019-08-19-bioconda-cofest/" target="_blank" rel="noopener">
+        <p class="list-group-item-text">
+        
+        Sep 30, 2019 - Oct 1, 2019
+        
+        </p>
+
+        <h4 class="list-group-item-heading">
+          <i class="fa fa-calendar" aria-hidden="true"></i>
+          
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+          Bioconda Collaboration Fest
+        </h4>
+      </a>
+    
+      
+      
+      <a class="list-group-item border-freiburg" href="/event/2019-05-08-GalaxyHTS.Freiburg.September2019/" target="_blank" rel="noopener">
+        <p class="list-group-item-text">
+        
+        Sep 23, 2019 - Sep 27, 2019
+        
+        </p>
+
+        <h4 class="list-group-item-heading">
+          <i class="fa fa-calendar" aria-hidden="true"></i>
+          
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+          Galaxy HTS data analysis workshop in Freiburg
+        </h4>
+      </a>
+    
+      
+      
+      <a class="list-group-item border-freiburg" href="/event/2019-08-08-microscopy-imaging-analysis/" target="_blank" rel="noopener">
+        <p class="list-group-item-text">
+        
+        Sep 19, 2019 - Sep 20, 2019
+        
+        </p>
+
+        <h4 class="list-group-item-heading">
+          <i class="fa fa-calendar" aria-hidden="true"></i>
+          
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+          Microscopy Image Analysis Course
+        </h4>
+      </a>
+    
+      
+      
+      <a class="list-group-item border-freiburg" href="https://galaxyproject.org/events/2019-09-gtn/" target="_blank" rel="noopener">
+        <p class="list-group-item-text">
+        
+        Sep 12, 2019
+        
+        </p>
+
+        <h4 class="list-group-item-heading">
+          <i class="fa fa-calendar" aria-hidden="true"></i>
+          
+	<i class="fa fa-external-link" aria-hidden="true"></i>
+
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+          Galaxy Training Network day - (online) CoFest and community call
+        </h4>
+      </a>
+    
+  </div>
+</div>
+
+  </div>
+</div>
+
+<div class="row">
+
+    <section class="section-content">
+        <div class="col-md-12">
+        </div>
+    </section>
+</div>
+
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+<footer class="navbar-default">
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <p>All content on this site is available under <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0-1.0</a>, unless otherwise specified.</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <ul class="contact-info">
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/index.md">Edit this page on GitHub</a></li>
+                    
+                      <li><i class="fa fa-envelope"></i><a href="mailto:galaxy@elixir-belgium.org">galaxy@elixir-belgium.org</a></li>
+                    
+                    
+                      <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-be">usegalaxy-be</a></li>
+                    
+                    
+                      <li><i class="fa fa-twitter"></i><a href="https://twitter.com/galaxyproject">galaxyproject</a></li>
+                    
+                      <li><i class="fa fa-rss"></i>Subscribe <a href="/feed.xml">via RSS (UseGalaxy.eu Feed)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  </body>
+</html>
