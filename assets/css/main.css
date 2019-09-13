@@ -624,6 +624,11 @@ div.row#carousel-eu-container {
 .multiple-img {
   text-align: center; }
 
+.half {
+  float: left;
+  width: 50%;
+  padding: 5px; }
+
 /* EU default CSS */
 .navbar {
   background-color: white !important;
