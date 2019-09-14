@@ -615,6 +615,9 @@ div.row#carousel-eu-container {
   align-items: center;
   justify-content: center; }
 
+.belgian-node {
+  width: 100%; }
+
 .eu-image {
   max-height: 100px;
   width: auto;
@@ -628,17 +631,6 @@ div.row#carousel-eu-container {
   float: left;
   width: 50%;
   padding: 5px; }
-
-
-#get-started {   
-    width:100%;  
-    border:solid;
-}
-
-#belgian-node {  
-    width:100%;     
-}
-
 
 /* EU default CSS */
 .navbar {
