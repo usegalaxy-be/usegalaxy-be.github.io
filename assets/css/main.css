@@ -629,6 +629,18 @@ div.row#carousel-eu-container {
   width: 50%;
   padding: 5px; }
 
+
+#get-started {   
+    width:100%;  
+    border:solid;
+}
+
+#belgian-node {  
+    width:100%;     
+    border:solid;
+}
+
+
 /* EU default CSS */
 .navbar {
   background-color: white !important;
