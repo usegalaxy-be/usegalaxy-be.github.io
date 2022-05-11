@@ -19,3 +19,7 @@ jobs:
       - uses: helaili/jekyll-action@2.0.5    # Choose any one of the Jekyll Actions
         env:
           JEKYLL_PAT: ${{ github.actor }}:${{ github.token }}
+        with:
+          target_branch: gh-pages
+          target_path: /
+
