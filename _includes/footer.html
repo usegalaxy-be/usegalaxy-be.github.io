@@ -1,0 +1,44 @@
+{% assign page_dir = page.dir | split:'/' %}
+{% assign key = page_dir[1] | default: page.site %}
+{% assign key_length = key | size %}
+
+{% if key_length == 0 %}
+{% assign lsite = site %}
+{% elsif key == "galaxy" %}
+{% assign lsite = site %}
+{% else %}
+  {% if site.team_sites[key] %}
+    {% assign lsite = site.team_sites[key] %}
+  {% else %}
+    {% assign lsite = site %}
+  {% endif %}
+{% endif %}
+
+<footer class="navbar-default">
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                {{ lsite.blurb | markdownify }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <ul class="contact-info">
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/{{ page.path }}">Edit this page on GitHub</a></li>
+                    {% if lsite.email %}
+                      <li><i class="fa fa-envelope"></i><a href="mailto:{{ lsite.email }}">{{ lsite.email }}</a></li>
+                    {% endif %}
+                    {% if lsite.github_username %}
+                      <li><i class="fa fa-github"></i><a href="https://github.com/{{ lsite.github_username }}">{{ lsite.github_username }}</a></li>
+                    {% endif %}
+                    {% if lsite.twitter_username %}
+                      <li><i class="fa fa-twitter"></i><a href="https://twitter.com/{{ lsite.twitter_username }}">{{ lsite.twitter_username }}</a></li>
+                    {% endif %}
+                      <li><i class="fa fa-rss"></i>Subscribe <a href="/feed.xml">via RSS (UseGalaxy.eu Feed)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,105 @@
+---
+layout: default
+---
+{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+      "@id": "{{ '../events/' | absolute_url }}",
+      "name": "Events"
+    }
+  },{
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+      "@id": "{{ page.url | replace:'index.html',''  }}",
+      "name": "{{ page.title }}"
+    }
+  }]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Event",
+  "name": "{{ page.title }}",
+  {% if page.location and page.location != "online" %}
+  "location": {
+    "@type": "Place",
+    "name": "{{ page.location.name }}",
+    "address": {
+      {% if page.location.street %}
+      "streetAddress": "{{ page.location.street }}",
+      {% endif %}
+      {% if page.location.city %}
+      "addressLocality": "{{ page.location.city }}",
+      {% endif %}
+      {% if page.location.postal %}
+      "postalCode": "{{ page.location.postal }}",
+      {% endif %}
+      {% if page.location.region %}
+      "addressRegion": "{{ page.location.region }}",
+      {% endif %}
+      {% if page.location.country %}
+      "addressCountry": "{{ page.location.country }}",
+      {% endif %}
+      "@type": "PostalAddress"
+    }
+  },
+  {% endif %}
+  "description": "{{ page.content | strip_html | truncatewords: 20 }}",
+  "startDate": "{{ page.starts }}",
+  "endDate": "{{ page.ends }}"
+}
+</script>
+
+
+<div class="row">
+  <section class="section-content">
+    <div class="col-md-12">
+      <h1>{{ page.title | escape }}</h1>
+
+      {% for tag in page.tags %}
+        <span class="label label-default">{{ tag }}</span>
+      {% endfor %}
+
+      <p class="small">
+          From {{ page.starts }} to {{ page.ends }} -
+          <a href="{{ page.url | absolute_url | replace:'http://', 'webcal://' | replace:'https://', 'webcal://' }}event.ics.html"><i class="fa fa-calendar" aria-hidden="true"></i> Add to your Calendar</a>
+      </p>
+
+      <div>
+        {{ content }}
+      </div>
+    </div>
+</div>
+{% if page.hidefooter %}
+{% else %}
+<div class="row">
+	<div class="col-md-2 col-sm-6">
+		{% if page.organiser %}
+		<h3>Organiser</h3>
+		{{ page.organiser.name }}<br/>
+		<a href="mailto:{{ page.organiser.email }}">
+		<i class="fa fa-envelope"></i> Email
+		</a>
+		{% endif %}
+	</div>
+
+	<div class="col-md-2 col-sm-6">
+{% include map.html location=page.location %}
+	</div>
+{% if page.supporters.size > 0 %}
+	<div class="col-md-8 col-sm-12">
+{% include sponsors.html supporters=page.supporters %}
+	</div>
+{% endif %}
+</div>
+{% endif %}

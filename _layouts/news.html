@@ -1,0 +1,92 @@
+---
+layout: default
+---
+{% assign page_dir = page.dir | split:'/' %}
+{% assign key = page_dir[1] | default: page.site %}
+{% assign key_length = key | size %}
+
+{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+<section id="news-page">
+  <div class="row news-header-row">
+    {% if page.previous.url %}
+    <a class="col-xs-1 text-center" href="{{ page.previous.url }}">
+      «
+    </a>
+    {% endif %}
+    <div class="col-xs-10 {% if page.previous.url %}{% else %}col-xs-offset-1{% endif %}">
+      <div class="text-center">
+        <h2 class="title">{{ page.title | escape }}</h2>
+      </div>
+      <hr />
+    </div>
+    {% if page.next.url %}
+    <a class="col-xs-1 text-center" href="{{ page.next.url }}">
+      »
+    </a>
+    {% endif %}
+  </div>
+  <div class="row post-metadata">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="row">
+        <div class="col-md-6">
+            {% include author.html author=page.author %}
+        </div>
+        <div class="col-md-6 text-right">
+          <div>
+            <span class="post-date">
+              {{ page.date | date: date_format }}
+            </span>
+
+            {% if page.location %}
+            <br />
+            <span class="post-location">
+                {{ page.location }}
+            </span>
+            {% endif %}
+
+            <br />
+            <span class="post-tags">
+                <span class="label label-success">{{ site.team_sites[key].name }}</span>
+              {% for tag in page.tags %}
+                <span class="label label-info">{{ tag }}</span>
+              {% endfor %}
+              {% if page.doi %}
+                <a href="https://dx.doi.org/{{ page.doi }}">
+                <span class="label label-warning">DOI:{{ page.doi }}</span>
+                </a>
+              {% endif %}
+            </span>
+
+            {% if page.repo %}
+            <br />
+            <a href="https://github.com/{{ page.repo }}">
+            <img src="https://img.shields.io/badge/GitHub-{{ page.repo }}-green.svg" />
+            <img src="https://img.shields.io/github/license/{{ page.repo }}.svg" />
+            </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="news-content">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+
+{% if page.supporters.size > 0 %}
+	<div class="col-md-2">
+	</div>
+<div class="row">
+	<div class="col-md-8 col-sm-12">
+{% include sponsors.html supporters=page.supporters %}
+	</div>
+	<div class="col-md-2">
+	</div>
+</div>
+{% endif %}
+</section>

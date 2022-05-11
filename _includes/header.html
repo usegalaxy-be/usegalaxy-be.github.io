@@ -1,0 +1,62 @@
+<div class="navbar">
+
+  <div class="container">
+    {% assign default_paths = page.header_links %}
+    {% assign included_paths = site.header_links.main | default: default_paths %}
+
+    {% assign page_dir = page.dir | split:'/' %}
+    {% assign key = page_dir[1] | default: page.site %}
+    {% assign key_length = key | size %}
+
+    {% for k in site.header_links %}
+      {% if k[0] == key %}
+        {% assign included_paths = k[1] %}
+      {% endif %}
+    {% endfor %}
+
+    <div class="navbar-header">
+      <div class="navbar-brand">
+        {% if key_length == 0 or page.light_background or site.team_sites[key].light_background == true %}
+        <img alt="galaxy eu logo" src="/assets/media/galaxy_project_logo_square.png" style="height: 20px"/>
+        {% else %}
+        <img alt="galaxy eu logo" src="/assets/media/galaxy-eu-logo.inv.svg" style="height: 20px"/>
+        {% endif %}
+      </div>
+
+      <a class="navbar-brand" href="/" style="padding-left: 6px">
+        {{ site.title | escape }}
+      </a>
+      {% if key_length != 0 %}
+        <span class="navbar-brand" style="color: white">
+        /
+        </span>
+        <a class="navbar-brand" href="{{ key | absolute_url }}">
+          {{ site.team_sites[key].name }}
+        </a>
+      {% endif %}
+    </div>
+
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Member Sites <span class="caret"></span></a>
+             <ul class="dropdown-menu">
+              {% for path in site.team_sites %}
+                <li>
+                  <a class="page-link" href="/{{ path[0] }}/">{{ path[1].name | escape }}</a>
+                </li>
+              {% endfor %}
+             </ul>
+           </li>
+
+          {% if included_paths %}
+          {% for path in included_paths %}
+            <li>
+              <a class="page-link" href="{{ path.url }}">{{ path.name | escape }}</a>
+            </li>
+          {% endfor %}
+          {% endif %}
+        </ul>
+      </div>
+  </div>
+</div>

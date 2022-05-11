@@ -1,0 +1,14 @@
+{% assign page_dir = page.dir | split:'/' %}
+{% assign key = page_dir[1] | default: page.site  %}
+{% assign key_length = key | size %}
+
+<div class="row">
+  <div class='col-sm-6'>
+    <h2><a href="/galaxy/news.html">News</a></h2>
+    {% include widget_news.html site=key plain=true %}
+  </div>
+  <div class='col-sm-6'>
+    <h2><a href="/galaxy/events.html">Events</a></h2>
+    {% include widget_events.html site=key plain=true %}
+  </div>
+</div>

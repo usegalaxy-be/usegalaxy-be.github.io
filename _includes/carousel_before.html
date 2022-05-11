@@ -1,0 +1,10 @@
+<div class="carousel slide row" data-ride="carousel" id="splash-box" data-interval="9000">
+
+  <ol class="carousel-indicators">
+    {% assign p = include.pages | minus: 1%}
+    {% for i in (0..p) %}
+    <li data-target="#splash-box" data-slide-to="{{ i }}" {% if forloop.first %}class="active"{% endif %}></li>
+    {% endfor %}
+  </ol>
+
+  <div class="carousel-inner" role="listbox">

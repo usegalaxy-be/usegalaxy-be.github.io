@@ -1,0 +1,40 @@
+<div class>
+  <div class="list-group">
+    {% if include.logo %}
+    <img src="/assets/media/galaxy-eu.svg" style="padding: 0.5em; height: 5em;"/>
+    {% endif %}
+    {% assign items1 = site.posts | sort:"date" | reverse %}
+
+    {% if include.site and site.team_sites[include.site].private_news %}
+    {% assign items = items1 | where:'site', include.site %}
+    {% else %}
+    {% assign items = items1 %}
+    {% endif %}
+
+    {% if include.newtab %}
+    {% assign url_target = 'target="_blank" rel="noopener"' %}
+    {% endif %}
+
+    {% if include.plain %}
+    {% assign url_ext = 'plain.html' %}
+    {% endif %}
+
+    {% for post in items limit:6 %}
+      {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        {% if post.external %}
+          {% assign url = post.external %}
+          {% assign url_target = 'target="_blank" rel="noopener"' %}
+        {% else %}
+          {% assign url = post.url | append: url_ext%}
+        {% endif %}
+        <a class="list-group-item {% if include.site and site.team_sites[include.site].private_news  %}{% else %}border-{{ post.site }}{% endif %}" href="{{ url }}" {{ url_target }}>
+
+        <p class="list-group-item-text">{{ post.date | date: date_format }}</p>
+        <h4 class="list-group-item-heading">
+          {% include article_icons.html post=post %}
+          {{ post.title | escape }}
+        </h4>
+      </a>
+    {% endfor %}
+  </div>
+</div>
