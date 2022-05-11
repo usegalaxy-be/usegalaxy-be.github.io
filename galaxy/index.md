@@ -111,7 +111,9 @@ Galaxy is an open source, web-based platform for data intensive biomedical resea
 {% include home_news_events-galaxy.html %}
 
 <div align="center" class="row eu-image-center">
-<iframe src="https://usegalaxy.be/stats/d-solo/000000021/galaxy-condor-cluster?orgId=1&refresh=15m&from=1586918617934&to=1586961817934&panelId=14" width="450" height="200" frameborder="0"></iframe>
-<iframe src="https://usegalaxy.be/stats/d-solo/000000004/galaxy-main?orgId=1&refresh=10s&from=1586952313972&to=1586963113972&var-host=localhost&panelId=54" width="450" height="200" frameborder="0"></iframe>
+<iframe src="https://usegalaxy.be/stats/d-solo/000000004/galaxy-main?orgId=1&refresh=10s&from=1651746264531&to=1651757064531&var-host=localhost&panelId=54" width="1100" height="400" frameborder="0"></iframe>
+</div>
+<div align="center" class="row eu-image-center">
+<iframe src="https://usegalaxy.be/stats/d-solo/000000004/galaxy-main?orgId=1&refresh=10s&from=1651745307986&to=1651756107986&var-host=localhost&panelId=111" width="1100" height="400" frameborder="0"></iframe>
 </div>
 
