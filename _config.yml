@@ -45,17 +45,12 @@ scholar:
   sort_by: year
   group_order: descending
 
-citation:
-    citation_style: apa
-    citation_locale: en
+
 
 team_sites:
     belgium:
       name: Belgium
       url: /belgium/
-      #email:
-      #twitter_username: erasmusmc
-      #github_username: erasmusmc-bioinformatics
       private_news: true
       url: "https://www.usegalaxy.be/"
       galaxy_server: "https://www.usegalaxy.be/"
@@ -94,22 +89,6 @@ exclude:
    - vendor/gems/
    - vendor/ruby/
 #
-# This will simultaneously render all collection items as "plain" pages
-collections:
-  posts:
-    permalink: /posts/:year/:month/:day/:title/
-  posts_plain:
-    permalink: /posts/:year/:month/:day/:title/plain.html
-    output: true
-  events:
-    permalink: /event/:path/
-    output: true
-  events_ical:
-    permalink: /event/:path/event.ics
-    output: true
-  events_plain:
-    permalink: /event/:path/plain.html
-    output: true
 
 defaults:
   -
@@ -119,21 +98,6 @@ defaults:
       layout: news
   -
     scope:
-      path: "_posts_plain"
-    values:
-      layout: news-galaxy
-  -
-    scope:
       path: "_events"
     values:
       layout: event
-  -
-    scope:
-      path: "_events_ical"
-    values:
-      layout: event-ical
-  -
-    scope:
-      path: "_events_plain"
-    values:
-      layout: event-galaxy
