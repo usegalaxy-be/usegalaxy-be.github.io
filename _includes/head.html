@@ -1,25 +1,51 @@
 <head>
-  <title>{{ site.title | escape }}{% if page.title %} | {{ page.title }}{% endif %}</title>
-  <meta property="og:title" content="{{ page.title | truncate: 60}}" />
-  <meta property="og:description" content="{{ page.excerpt | strip_html | truncate: 60}}" />
-  <meta property="og:image" content="/assets/media/galaxy_project_logo_square.png" />
-  <meta name="description" content="{{ site.description }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:image" content="//{{site.github.url | remove: 'https://' | remove: 'http://'}}/assets/img/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="{{site.title}}">
+  <meta name="theme-color" content="#{{site.theme_variables.theme_color | default: 0d6efd }}">
+  
+  <title>{{site.title}}</title>
+  <!-- Syntax highlighting  -->
+  <link rel="stylesheet" href="{{ 'assets/css/syntax.css' | relative_url }}">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" type="text/css" href="{{ 'assets/css/all.min.css' | relative_url }}">
+  <!-- Main css file -->
+  <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}?{{site.time | date: '%s'}}">
+  <!-- JavaScript  -->
+  <script src="{{ 'assets/js/jquery.min.js' | relative_url }}"></script>
+  <script src="{{ 'assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+  <script src="{{ 'assets/js/main.js' | relative_url }}"></script>
 
-  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/assets/css/main.css">
-{% assign page_dir = page.dir | split:'/' %}
-{% assign key = page_dir[1] | default: page.site%}
-{% assign key_length = key | size %}
+  {%- if page.datatable == true %}
+  <!-- Include the standard DataTables bits -->
+  <link rel="stylesheet" type="text/css" href="{{ 'assets/css/dataTables.bootstrap5.min.css' | relative_url }}">
+  <script type="text/javascript" charset="utf8" src="{{ 'assets/js/jquery.dataTables.min.js' | relative_url }}"></script>
+  <script type="text/javascript" charset="utf8" src="{{ 'assets/js/dataTables.bootstrap5.min.js' | relative_url }}"></script>
+  <script type="text/javascript">
+      $.fn.DataTable.ext.pager.numbers_length = 5;
+      $(document).ready(function () {
+          $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
+          $('table.display').DataTable({
+              lengthMenu: [[25, 50, 100, -1], [25, 50, 100, "All"]],
+              stateSave: true,
+              searching: true,
+              language: {
+                  searchPlaceholder: "Type here..."
+              }
+          });
+      });
+  </script>
+  {%- endif %}
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-  <!-- <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" /> -->
-  <link rel="shortcut icon" href="/assets/media/galaxy_project_logo_square.png" type="image/x-icon" />
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="/feed.xml">
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ 'assets/img/apple-touch-icon.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ 'assets/img/favicon-32x32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ 'assets/img/favicon-16x16.png' | relative_url }}">
+  <link rel="manifest" href="{{ 'assets/img/site.webmanifest' | relative_url }}">
+  <link rel="shortcut icon" href="{{ 'assets/img/favicon.ico' | relative_url }}">
 
-  <link href="/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <script src="/assets/js/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
-  <script src="/assets/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
-</head>

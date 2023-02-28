@@ -1,0 +1,10 @@
+{% for notice in site.data.notices %}
+<div class="alert alert-{{ notice.class }}" role="alert">
+    <h4>{{ notice.title }}</h4>
+    {% assign messages = notice.messages | sort:'date' | reverse %}
+    {% for message in messages %}
+    <div>{% if message.date %}[{{ message.date | date: "%-d %B %Y %H:%M" }}] {% endif %}{{ message.message | markdownify }}</div>
+    {% endfor %}
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+{% endfor %}
