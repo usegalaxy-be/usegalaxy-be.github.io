@@ -6,11 +6,18 @@ url: "https://usegalaxy.be" # the base hostname & protocol for your site, e.g. h
 twitter_username: ELIXIRnodeBE
 github_username:  usegalaxy-be
 
+# Sass settings
+sass:
+  style: compressed
+  sourcemap: never
+
+# Render pages with following url structure: /:categories/:year/:month/:day/:title
+permalink: /:categories/:year/:month/:day/:title
+
 # Load following plugins
 plugins:
   - jekyll-feed
-  - jekyll/scholar
-  - jekyll-twitter-plugin
+  - jekyll-scholar
 
 # Bibliography settings
 scholar:
@@ -25,8 +32,15 @@ scholar:
 exclude:
    - Gemfile
    - Gemfile.lock
-   - node_modules
    - vendor/bundle/
    - vendor/cache/
    - vendor/gems/
    - vendor/ruby/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"

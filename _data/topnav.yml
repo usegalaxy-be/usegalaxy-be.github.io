@@ -1,0 +1,24 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+subitems:
+- title: Home
+  url: /
+- title: Get started
+  url: /get-started
+- title: Request
+  subitems:
+    - title: Quota
+      url: /request-quota
+    - title: Reference data
+      url: /request-reference-data
+    - title: Tools
+      url: /request-tools
+    - title: Training as a service
+      url: /request-taas
+# - title: Events
+#   url: /events
+- title: News
+  url: /news
+- title: Tools
+  url: /tools
+  
