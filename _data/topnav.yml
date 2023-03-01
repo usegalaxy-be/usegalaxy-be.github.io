@@ -19,6 +19,8 @@ subitems:
 #   url: /events
 - title: News
   url: /news
-- title: Tools
-  url: /tools
+- title: Current load
+  url: /current-load
+# - title: Tools
+#   url: /tools
   

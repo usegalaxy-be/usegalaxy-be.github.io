@@ -34,8 +34,7 @@ Color                                     | State
 <span style="color: blue">Blue</span>     | The job is paused. This indicates either a problem with an input (a previous step in the workflow may have failed) or that you have exceeded disk quota set by the administrator of the Galaxy instance you are working on.
 {: .table.table-striped}
 
-
-# Workflows
+## Workflows
 
 You can automate your analysis pipeline by using workflows composed of several tools linked by their input/output data. In the Workflows section (upper menu) you can see a list of current workflows and also create your own ones.
 It is also possible (and highly recommended) to use the shared, and widely tested, workflows available under Shared Data (top menu) → workflows. To use one of these you first need to import it to your workflows list by clicking on the name and selecting Import. To execute any workflow listed under your workflows first click on it and select run, then choose the input data as with any tool.
