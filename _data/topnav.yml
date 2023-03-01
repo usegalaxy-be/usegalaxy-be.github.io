@@ -19,7 +19,7 @@ subitems:
 #   url: /events
 - title: News
   url: /news
-- title: Current load
+- title: <i class="fa-solid fa-chart-line me-2"></i></i>Current load
   url: /current-load
 # - title: Tools
 #   url: /tools
