@@ -3,23 +3,39 @@
 subitems:
 - title: Home
   url: /
+  icon: house
+  icon_type: solid
 - title: Get started
   url: /get-started
+  icon: location-arrow
+  icon_type: solid
 - title: Request
+  icon: circle-question
+  icon_type: solid
   subitems:
     - title: Quota
       url: /request-quota
+      # icon: floppy-disk
+      # icon_type: solid
     - title: Reference data
       url: /request-reference-data
+      # icon: server
+      # icon_type: solid
     - title: Tools
       url: /request-tools
+      # icon: screwdriver-wrench
+      # icon_type: solid
     - title: Training Infrastructure as a Service
       url: /request-tiaas
+      # icon: graduation-cap
+      # icon_type: solid
 # - title: Events
 #   url: /events
-- title: News
-  url: /news
-- title: <i class="fa-solid fa-chart-line me-2"></i></i>Current load
+# - title: News
+#   url: /news
+- title: Current load
+  icon: chart-line
+  icon_type: solid
   url: /current-load
 # - title: Tools
 #   url: /tools

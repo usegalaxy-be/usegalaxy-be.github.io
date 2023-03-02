@@ -1,0 +1,8 @@
+<h2>News</h2>
+{% for news in site.posts %}
+<a href="{{news.url}}"><h3>{{news.title}}</h3></a>
+<span class="text-muted"><small>{{news.date}}</small></span>
+{% for tag in news.tags %}
+<span class="badge bg-light text-secondary"><i class="fas fa-tag me-1"></i>{{tag}}</span>
+{% endfor %}
+{% endfor%}
