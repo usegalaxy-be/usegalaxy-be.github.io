@@ -43,7 +43,7 @@ main {
   h2{
     font-weight: 600;
     color: $primary;
-    margin-top: $spacer * 2;
+    margin-top: $spacer * 1.5;
   }
 
   h3 {
@@ -65,9 +65,6 @@ main {
     -ms-word-break: break-all;
     word-break: break-word;
 
-    &:hover {
-      text-decoration: underline;
-    }
   }
 
   ol li,
