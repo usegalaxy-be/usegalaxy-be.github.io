@@ -13,8 +13,8 @@ subitems:
       url: /request-reference-data
     - title: Tools
       url: /request-tools
-    - title: Training as a service
-      url: /request-taas
+    - title: Training Infrastructure as a Service
+      url: /request-tiaas
 # - title: Events
 #   url: /events
 - title: News

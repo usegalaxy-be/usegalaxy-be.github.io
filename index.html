@@ -4,55 +4,76 @@ redirect_from: galaxy/index.html
 ---
 
 <p class="text-center pb-4">
-    <img width="700px" src="{{'/assets/media/usegalaxy.be.svg' | relative_url }}" class="img-fluid" alt="Biodiversity logo">
+    <img width="500px" src="{{'/assets/media/usegalaxy.be.svg' | relative_url }}" class="img-fluid" alt="Biodiversity logo">
 </p>
 
 <h1 class="text-center">The Belgian Galaxy instance</h1>
 
-<p class="lead text-center">Welcome to the Galaxy Instance of VIB - UGent Hosted at VSC (Flemish Supercomputer Centre). Galaxy is an open, web-based platform for accessible, reproducible and transparent computational research. Galaxy supports thousands of documented and maintained tools that are free to use. We facilitate on-demand training capacities and provision 50GB for registered users.
+<p class="lead text-center">Welcome to the Galaxy Instance of <b>VIB - UGent</b> Hosted at <b>VSC</b> (Flemish Supercomputer Centre). Galaxy is an open, web-based platform for accessible, reproducible and transparent computational research. Galaxy supports thousands of documented and maintained tools that are free to use. We facilitate on-demand training capacities and provision 50GB for every registered user.
 </p>
 
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-5 mb-3 text-center">
+<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 my-3 text-center g-4">
     <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm front-panel">
-            <div class="card-body">
+        <div class="card rounded-3 shadow-sm front-panel h-100">
+            <div class="card-body pb-0">
                 <span class="card-title text-primary fa-3x"><i class="fa-solid fa-floppy-disk"></i></i></span>
-                <ul class="list-unstyled mt-3 mb-4">
+                <ul class="list-unstyled mt-1">
                     <li>50GB of storage</li>
                     <li>For every registered user</li>
                     <li>Want a different quota?</li>
                 </ul>
-                <a href="/request-quota" type="button" class="w-100 btn btn-lg btn-outline-primary">Request now</a>
+            </div>
+            <div class="card-footer bg-white border-top-0">
+                <a href="{{'/request-quota' | relative_url }}" type="button" class="btn btn-outline-primary w-100">Request now</a>
             </div>
         </div>
     </div>
     <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm front-panel">
-            <div class="card-body">
+        <div class="card rounded-3 shadow-sm front-panel h-100">
+            <div class="card-body pb-0">
                 <span class="card-title text-primary fa-3x"><i class="fa-solid fa-server"></i></span>
-                <ul class="list-unstyled mt-3 mb-4">
+                <ul class="list-unstyled mt-1">
                     <li> ## reference datasets</li>
                     <li>To be used in your workflow or tool</li>
                     <li>Don't find your reference genome?</li>
                 </ul>
-                <a href="/request-reference-data" type="button" class="w-100 btn btn-lg btn-outline-primary">Request now</a>
+            </div>
+            <div class="card-footer bg-white border-top-0">
+                <a href="{{'/request-reference-data' | relative_url }}" type="button" class="btn btn-outline-primary w-100">Request now</a>
             </div>
         </div>
     </div>
     <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm front-panel">
-            <div class="card-body">
+        <div class="card rounded-3 shadow-sm front-panel h-100">
+            <div class="card-body pb-0">
                 <span class="card-title text-primary fa-3x"><i class="fa-solid fa-screwdriver-wrench"></i></span>
-                <ul class="list-unstyled mt-3 mb-4">
+                <ul class="list-unstyled mt-1">
                     <li>####+ tools</li>
                     <li>Ready to use</li>
                     <li>You don't find your favorite tool?</li>
                 </ul>
-                <a href="/request-tools" type="button" class="w-100 btn btn-lg btn-outline-primary">Request now</a>
+            </div>
+            <div class="card-footer bg-white border-top-0">
+                <a href="{{'/request-tools' | relative_url }}" type="button" class="btn btn-outline-primary w-100">Request now</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card rounded-3 shadow-sm front-panel h-100">
+            <div class="card-body pb-0">
+                <span class="card-title text-primary fa-3x"><i class="fa-solid fa-graduation-cap"></i></i></span>
+                <ul class="list-unstyled mt-1">
+                    <li>Training Infrastructure as a Service</li>
+                </ul>
+            </div>
+            <div class="card-footer bg-white border-top-0">
+                <a href="https://usegalaxy.org.au/tiaas" type="button" class="btn btn-outline-primary w-100 mb-2">Learn more</a>
+                <a href="{{'/request-tiaas' | relative_url }}" type="button" class="btn btn-outline-primary w-100">Enquire now</a>
             </div>
         </div>
     </div>
 </div>
+
 
 <h2>Training Infrastructure as a Service (TIaaS)</h2>
 <p>
@@ -63,11 +84,11 @@ redirect_from: galaxy/index.html
 </p>
 
 <div class="d-grid gap-3 d-md-flex">
-    <a class="btn btn-lg btn-outline-primary px-4" type="button" href="https://usegalaxy.org.au/tiaas">
+    <a class="btn btn-outline-primary px-4" type="button" href="https://usegalaxy.org.au/tiaas">
         Learn more
     </a>
 
-    <a class="btn btn-lg btn-outline-primary px-4" type="button" href="/request-taas">
+    <a class="btn btn-outline-primary px-4" type="button" href="{{'/request-tiaas' | relative_url }}">
         Enquire now
     </a>
 </div>
