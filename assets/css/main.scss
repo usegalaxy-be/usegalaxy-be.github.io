@@ -16,13 +16,13 @@ $dark: #2c3143;
 
 $link-decoration: none;
 
-
 @import "bootstrap/variables";
 
 $link-color: $blue;
 $card-cap-padding-y: $card-spacer-y;
-$font-family-base: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
-$font-size-base: .85rem;
+$font-family-base: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif,
+  Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+$font-size-base: 0.85rem;
 $lead-font-size: 1rem;
 $h1-font-size: $font-size-base * 2;
 $h2-font-size: $font-size-base * 1.5;
@@ -40,7 +40,7 @@ main {
     margin-bottom: $spacer * 1.5;
   }
 
-  h2{
+  h2 {
     font-weight: 600;
     color: $primary;
     margin-top: $spacer * 1.5;
@@ -64,7 +64,6 @@ main {
     word-wrap: break-word;
     -ms-word-break: break-all;
     word-break: break-word;
-
   }
 
   ol li,
@@ -75,6 +74,9 @@ main {
       color: $primary;
       font-weight: 600;
     }
+  }
+  img {
+    @extend .img-fluid;
   }
 }
 

@@ -3,8 +3,8 @@ title: ELIXIR-Belgium
 redirect_from: galaxy/index.html
 ---
 
-<p class="text-center pb-4">
-    <img width="500px" src="{{'/assets/media/usegalaxy.be.svg' | relative_url }}" class="img-fluid" alt="Biodiversity logo">
+<p class="text-center">
+    <img width="500px" src="{{'/assets/media/usegalaxy.be.svg' | relative_url }}" alt="Biodiversity logo">
 </p>
 
 <h1 class="text-center">The Belgian Galaxy instance</h1>
@@ -12,7 +12,7 @@ redirect_from: galaxy/index.html
 <p class="lead text-center">Welcome to the Galaxy Instance of <b>VIB - UGent</b> Hosted at <b>VSC</b> (Flemish Supercomputer Centre). Galaxy is an open, web-based platform for accessible, reproducible and transparent computational research. Galaxy supports thousands of documented and maintained tools that are free to use. We facilitate on-demand training capacities and provision 50GB for every registered user.
 </p>
 
-<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 my-3 text-center g-4">
+<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 my-4 text-center g-4">
     <div class="col">
         <div class="card rounded-3 shadow-sm front-panel h-100">
             <div class="card-body pb-0">
@@ -74,53 +74,66 @@ redirect_from: galaxy/index.html
     </div>
 </div>
 
+<div class="row mb-4">
+    <div class="col">
+        <div class="card rounded-3 shadow-sm">
+            <div class="card-body">
+                <h2 class="mt-0">Training Infrastructure as a Service (TIaaS)</h2>
+                <p>
+                    Are you looking to run bioinformatics training using the Galaxy
+                    service? We provide free infrastructure for hosting Galaxy training
+                    events, so your participants experience the fastest possible job times.
+                    Don't let a job queue ruin your workshop!
+                </p>
+                <div class="d-grid gap-3 d-md-flex">
+                    <a class="btn btn-outline-primary px-4" type="button" href="https://usegalaxy.org.au/tiaas">
+                        Learn more
+                    </a>
 
-<h2>Training Infrastructure as a Service (TIaaS)</h2>
-<p>
-    Are you looking to run bioinformatics training using the Galaxy
-    service? We provide free infrastructure for hosting Galaxy training
-    events, so your participants experience the fastest possible job times.
-    Don't let a job queue ruin your workshop!
-</p>
-
-<div class="d-grid gap-3 d-md-flex">
-    <a class="btn btn-outline-primary px-4" type="button" href="https://usegalaxy.org.au/tiaas">
-        Learn more
-    </a>
-
-    <a class="btn btn-outline-primary px-4" type="button" href="{{'/request-tiaas' | relative_url }}">
-        Enquire now
-    </a>
+                    <a class="btn btn-outline-primary px-4" type="button" href="{{'/request-tiaas' | relative_url }}">
+                        Enquire now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
 
 <div class="row">
     <div class="col-12 col-md-6">
+        <div class="card rounded-3 bg-light mb-4">
+            <div class="card-body">
+                <h2 class="mt-0"> Get started </h2>
+                <p>
+                    Galaxy is an open source, web-based platform for data intensive biomedical research. If you are new to Galaxy <a href="http://usegalaxy.org/galaxy101" target="_blank" rel="noopener">start here</a> or consult our help resources. You can install your own Galaxy by following the <a href="http://getgalaxy.org" target="_blank">tutorial</a> and choose from thousands of tools from the <a href="https://galaxyproject.org/admin/tools/add-tool-from-toolshed-tutorial/" target="_blank">Tool Shed</a>.
+                </p>
 
-        <h2> Get started </h2>
-        <p>
-            Galaxy is an open source, web-based platform for data intensive biomedical research. If you are new to Galaxy <a href="http://usegalaxy.org/galaxy101" target="_blank" rel="noopener">start here</a> or consult our help resources. You can install your own Galaxy by following the <a href="http://getgalaxy.org" target="_blank">tutorial</a> and choose from thousands of tools from the <a href="https://galaxyproject.org/admin/tools/add-tool-from-toolshed-tutorial/" target="_blank">Tool Shed</a>.
-        </p>
+                <h2>Our Data Policy</h2>
+                <h3>Registered Users</h3>
+                <p>
+                    User data on UseGalaxy.be (i.e. datasets, histories) will be available as long as they are not deleted by the user. Once marked as deleted the datasets will be permanently removed within 14 days. If the user "purges" the dataset in the Galaxy, it will be removed immediately, permanently. An extended quota can be requested for a limited time period in special cases. Please get in touch at galaxy@elixir-belgium.org
+                </p>
 
-        <h2>How to cite usegalaxy.be</h2>
-        <h2>Our Data Policy</h2>
-        <h3>Registered Users</h3>
-        <p>
-            User data on UseGalaxy.be (i.e. datasets, histories) will be available as long as they are not deleted by the user. Once marked as deleted the datasets will be permanently removed within 14 days. If the user "purges" the dataset in the Galaxy, it will be removed immediately, permanently. An extended quota can be requested for a limited time period in special cases. Please get in touch at galaxy@elixir-belgium.org
-        </p>
+                <h3>Unregistered Users</h3>
+                <p>
+                    Processed data will only be accessible during one browser session, using a cookie to identify your data. This cookie is not used for any other purposes (e.g. tracking or analytics.) If UseGalaxy.be service is not accessed for 90 days, those datasets will be permanently deleted.
+                </p>
 
-        <h3>Unregistered Users</h3>
-        <p>
-            Processed data will only be accessible during one browser session, using a cookie to identify your data. This cookie is not used for any other purposes (e.g. tracking or analytics.) If UseGalaxy.be service is not accessed for 90 days, those datasets will be permanently deleted.
-        </p>
-
-        <h3>GDPR Compliance</h3>
-        <p>
-            The Galaxy service complies with the EU General Data Protection Regulation (GDPR). You can read more about this on our GDPR Compliance Documentation.
-        </p>
-
+                <h3>GDPR Compliance</h3>
+                <p>
+                    The Galaxy service complies with the EU General Data Protection Regulation (GDPR). You can read more about this on our GDPR Compliance Documentation.
+                </p>
+            </div>
+        </div>
     </div>
     <div class="col-12 col-md-6">
         {% include news-list.html %}
-    </div>
+        <div class="card rounded-3 mt-4">
+            <div class="card-body">
+                <h2 class="mt-0">How to cite usegalaxy.be</h2>
+            </div>
 
+        </div>
+    </div>
 </div>
