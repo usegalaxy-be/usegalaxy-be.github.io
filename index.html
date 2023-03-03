@@ -107,17 +107,28 @@ redirect_from: galaxy/index.html
     </div>
 </div>
 
-
 <div class="row">
     <div class="col-12 col-md-6">
         <div class="card rounded-3 bg-light mb-4 shadow-sm">
             <div class="card-body">
-                <h2 class="mt-0"> Get started </h2>
-                <p>
-                    Galaxy is an open source, web-based platform for data intensive biomedical research. If you are new to Galaxy <a href="http://usegalaxy.org/galaxy101" target="_blank" rel="noopener">start here</a> or consult our help resources. You can install your own Galaxy by following the <a href="http://getgalaxy.org" target="_blank">tutorial</a> and choose from thousands of tools from the <a href="https://galaxyproject.org/admin/tools/add-tool-from-toolshed-tutorial/" target="_blank">Tool Shed</a>.
-                </p>
-
-                <h2>Our Data Policy</h2>
+                <div class="d-grid gap-3 d-md-flex">
+                    <div>
+                        <h2 class="mt-0">Get started</h2>
+                        <p>
+                            useGalaxy.be maintains tools, workflows and reference datasets as requested by the Belgian research community, making the platform the ideal place for Belgian researchers to perform their analyses.
+                        </p>
+                    </div>
+                    <div class="d-flex align-items-center align-items-center">
+                        <a class="btn btn-primary px-4 text-nowrap" type="button" href="{{'/get-started' | relative_url }}">
+                            Read more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card rounded-3 bg-light mb-4 shadow-sm">
+            <div class="card-body">
+                <h2 class="mt-0">Our Data Policy</h2>
                 <h3>Registered Users</h3>
                 <p>
                     User data on UseGalaxy.be (i.e. datasets, histories) will be available as long as they are not deleted by the user. Once marked as deleted the datasets will be permanently removed within 14 days. If the user "purges" the dataset in the Galaxy, it will be removed immediately, permanently. An extended quota can be requested for a limited time period in special cases. Please get in touch at galaxy@elixir-belgium.org
@@ -139,12 +150,16 @@ redirect_from: galaxy/index.html
         {% include news-list.html %}
         <div class="card rounded-3 mt-4 shadow-sm">
             <div class="card-body">
-                <h2 class="mt-0">How to cite usegalaxy.be</h2>
+                <h2 class="mt-0">Galaxy Belgium Acknowledgment Statement</h2>
                 <p>
                     When you use Galaxy Belgium to support your publication or project, please acknowledge its use with the following statement:
                 </p>
+                <blockquote class="blockquote">
+                    <p class="fst-italic p-3 text-center">
+                        "This work is supported by useGalaxy.be, a service provided by the <b>VIB - UGent</b> and its partners Hosted at <b>VSC</b> (Flemish Supercomputer Centre)s."
+                    </p>
+                </blockquote>
             </div>
-
         </div>
     </div>
 </div>
