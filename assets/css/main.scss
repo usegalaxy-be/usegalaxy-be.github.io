@@ -97,16 +97,19 @@ main {
       font-weight: 600;
     }
   }
+  // Make sure images scale
   img {
     @extend .img-fluid;
   }
 }
 
+// Size logo's footer
 .logo {
   max-height: 100px;
   min-width: 180px;
 }
 
+// Hover shadow tiles homepage
 .front-panel:hover {
   box-shadow: $box-shadow !important;
 }
