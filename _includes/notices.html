@@ -1,7 +1,7 @@
 {% for notice in site.data.notices %}
-<div class="d-flex alert alert-{{ notice.class }} m-2" role="alert">
+<div class="d-flex justify-content-between alert alert-{{ notice.class }} m-2" role="alert">
     <div>
-        <h4>{{ notice.title }}</h4>
+        <h5>{{ notice.title }}</h5>
         {% assign messages = notice.messages | sort:'date' | reverse %}
         {% for message in messages %}
         <div>{% if message.date %}[{{ message.date | date: "%-d %B %Y %H:%M" }}] {% endif %}{{ message.message | markdownify }}</div>
