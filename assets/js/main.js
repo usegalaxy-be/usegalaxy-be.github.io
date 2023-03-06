@@ -22,10 +22,9 @@ $(function () {
 $(document).ready(function () {
     $('table').each(function (i, obj) {
         if (!$(obj).parents('.table-responsive').length) {
-            $(obj).wrap('<div class="table-responsive mt-4 mb-5"/>');
+            $(obj).wrap('<div class="table-responsive mt-4 mb-4"/>');
         }
     });
-
 });
 
 /**
