@@ -7,7 +7,7 @@
         <div>{% if message.date %}[{{ message.date | date: "%-d %B %Y %H:%M" }}] {% endif %}{{ message.message | markdownify }}</div>
         {% endfor %}
     </div>
-    <div class="d-flex align-items-center">
+    <div >
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
 </div>
