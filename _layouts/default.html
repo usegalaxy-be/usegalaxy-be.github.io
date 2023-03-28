@@ -7,7 +7,7 @@
     <!-- Page Content -->
     <div class="container flex-grow-1">
         <main id="main" class="mb-5">
-            {% unless page.url == "/" %}
+            {% unless page.frontpage == true %}
             <div class="mb-4">
                 <a href="{{ '/' | relative_url }}" class="link-secondary"><i class="fa-solid fa-arrow-left-long me-2"></i>Back</a>
             </div>
