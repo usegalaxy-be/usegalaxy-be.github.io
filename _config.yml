@@ -27,7 +27,6 @@ scholar:
   sort_by: year
   group_order: descending
 
-port: 5000
 # Exclude from processing.
 exclude:
    - Gemfile
