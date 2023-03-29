@@ -36,7 +36,9 @@
                         <ul class="dropdown-menu" aria-labelledby="Dropdown{{item.title | jsonify }}">
                             {%- for subitem in item.subitems %}
                             <li>
-                                {%- if subitem.external_url %}
+                                {%- if subitem.hr == true %}
+                                <hr class="dropdown-divider">
+                                {%- elsif subitem.external_url %}
                                 <a class="dropdown-item" href="{{subitem.external_url}}" target="_blank" rel="noopener">
                                     {%- if subitem.icon_type and subitem.icon_type %}
                                     <i class="fa-{{subitem.icon_type}} fa-{{subitem.icon}} me-1"></i>
