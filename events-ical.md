@@ -1,3 +1,0 @@
----
-layout: event-list-ical
----

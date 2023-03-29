@@ -1,5 +1,4 @@
 ---
-site: belgium
 title: 'Welcome to UseGalaxy.be: The Belgian Galaxy instance'
 tags: [tools, elixir]
 supporters:
