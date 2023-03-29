@@ -1,20 +1,21 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  {% include head.html %}
+<!doctype html>
+<html lang="en">
+{% include head.html %}
 
-    {% assign page_dir = page.dir | split:'/' %}
-    {% assign key = page_dir[1] | default: page.site %}
-    {% assign key_length = key | size %}
-
-  <body class="{% if key_length != 0 %}location-{{ key }}{% endif %}">
-    <div id="wrap">
-      <div id="main">
-        {% include header.html %}
-        <div class="container" id="maincontainer">
-          {{ content }}
-        </div>
-      </div>
+<body class="d-flex flex-column min-vh-100">
+    {% include topnav.html %}
+    <!-- Page Content -->
+    <div class="container flex-grow-1">
+        <main id="main" class="mb-5">
+            {% unless page.frontpage == true %}
+            <div class="mb-4">
+                <a href="{{ '/' | relative_url }}" class="link-secondary"><i class="fa-solid fa-arrow-left-long me-2"></i>Back</a>
+            </div>
+            {% endunless %}
+            {{content}}
+        </main>
     </div>
     {% include footer.html %}
-  </body>
+</body>
+
 </html>

@@ -1,5 +1,4 @@
 ---
-site: belgium
 title: 'PLAZA reference data powering UseGalaxy.be'
 tags: [tools,gcc]
 supporters:

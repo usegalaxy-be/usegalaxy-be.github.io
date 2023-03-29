@@ -1,0 +1,28 @@
+<div class="card">
+    <div class="card-body pb-0">
+        <h2 class="mt-0">News</h2>
+    </div>
+    <div class="list-group list-group-flush shadow-sm">
+        {%- for news in site.posts limit: 7 %}
+        {%- if news.external %}
+        <a href="{{news.external l}}" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+        {%- else %}
+        <a href="{{news.url | relative_url}}" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+        {%- endif %}
+            <div class="d-flex gap-2 w-100 justify-content-between">
+                <div>
+                    <h6 class="mb-0">{{news.title}}{% if news.external %}<i class="fa-solid fa-arrow-up-right-from-square ms-2 fa-sm text-secondary"></i>{% endif %}</h6>
+                    {%- if news.tags %}
+                    <p class="mb-0">
+                        {%- for tag in news.tags %}
+                        <span class="badge bg-light text-secondary"><i class="fas fa-tag me-1"></i>{{tag}}</span>
+                        {%- endfor %}
+                    </p>
+                    {%- endif %}
+                </div>
+                <small class="opacity-50 text-nowrap">{{news.date | date: "%-d %B %Y" }}</small>
+            </div>
+        </a>
+        {%- endfor%}
+    </div>
+</div>
