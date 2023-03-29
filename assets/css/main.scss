@@ -23,7 +23,8 @@ $dark: #2c3143;
 $link-color: $blue-link;
 $link-decoration: none;
 $card-cap-padding-y: $card-spacer-y;
-
+$box-shadow-sm: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+$box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px, rgba($primary, .1) 0px 8px 20px,;
 // Font changes
 @font-face {
   font-family: "Atkinson Hyperlegible";
