@@ -100,8 +100,6 @@ main {
 
   ol li,
   ul li {
-    margin: $spacer * 0.5 0;
-
     &::marker {
       color: $primary;
       font-weight: 600;

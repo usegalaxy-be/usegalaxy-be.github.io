@@ -6,7 +6,7 @@ title: Quick start
 
 This quick start guide will describe the interface you see here in Galaxy. 
 
-More in depth tutorials can be found on the [<i class="fa-solid fa-graduation-cap me-2"></i>Galaxy Training Network (GTN)](https://training.galaxyproject.org){: class="btn btn-outline-primary"}
+More in depth tutorials can be found on the [<i class="fa-solid fa-graduation-cap me-2"></i>Galaxy Training Network (GTN)<i class="fa-solid fa-arrow-up-right-from-square ms-2 fa-sm"></i>](https://training.galaxyproject.org){: class="btn btn-sm btn-outline-primary"}
 
 ## Tools
 
@@ -31,12 +31,12 @@ The color of a dataset designates the current status of the underlying job
 
 Color                                     | State
 ---                                       | ---
-<span style="color: gray">Gray</span>     | The job is being evaluated to run (new dataset) or is queued. Allow this to complete.
-<span style="color: orange">Yellow</span> | The job is executing.
-<span style="color: green">Green</span>   | Successful processing.
-<span style="color: red">Red</span>       | The job has failed.
-<span style="color: blue">Blue</span>     | The job is paused. This indicates either a problem with an input (a previous step in the workflow may have failed) or that you have exceeded disk quota set by the administrator of the Galaxy instance you are working on.
-{: .table.table-striped}
+<span class="btn btn-sm" style="background-color: #e9ecef">Gray</span>     | The job is being evaluated to run (new dataset) or is queued. Allow this to complete.
+<span class="btn btn-sm" style="background-color: #ffe6cd">Yellow</span> | The job is executing.
+<span class="btn btn-sm" style="background-color: #c2ebc2">Green</span>   | Successful processing.
+<span class="btn btn-sm" style="background-color: #f4a3a5">Red</span>       | The job has failed.
+<span class="btn btn-sm" style="background-color: #a6c9e1">Blue</span>     | The job is paused. This indicates either a problem with an input (a previous step in the workflow may have failed) or that you have exceeded disk quota set by the administrator of the Galaxy instance you are working on.
+{: .table}
 
 ## Workflows
 
