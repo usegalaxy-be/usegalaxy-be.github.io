@@ -6,7 +6,7 @@ title: Quick start
 
 This quick start guide will describe the interface you see here in Galaxy. 
 
-More in depth tutorials can be found on the [<i class="fa-solid fa-graduation-cap me-2"></i>Galaxy Training Network (GTN)<i class="fa-solid fa-arrow-up-right-from-square ms-2 fa-sm"></i>](https://training.galaxyproject.org){: class="btn btn-sm btn-outline-primary"}
+More in depth tutorials can be found on the [<i class="fa-solid fa-graduation-cap me-2"></i>Galaxy Training Network (GTN)<i class="fa-solid fa-arrow-up-right-from-square ms-2 fa-sm"></i>](https://training.galaxyproject.org){: class="btn btn-sm btn-outline-primary px-3"}
 
 ## Tools
 
