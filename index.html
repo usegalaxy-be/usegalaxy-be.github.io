@@ -9,7 +9,7 @@ frontpage: true
 
 <h1 class="text-center">The Belgian Galaxy instance</h1>
 
-<p class="lead text-center">Welcome to the Galaxy Instance of <a href="https://datacore.sites.vib.be/">VIB Data Core</a> and <a href="https://elixir-belgium.org/">ELIXIR Belgium</a> hosted at <a href="https://www.vscentrum.be/">VSC</a> (Flemish Supercomputer Centre). <a href="https://galaxyproject.org/">Galaxy</a> is an open, web-based platform for accessible, reproducible and transparent computational research. Galaxy supports thousands of documented and maintained tools that are free to use. We facilitate on-demand training capacities and provision 50GB for every registered user.
+<p class="lead text-center">Welcome to the public <a href="https://galaxyproject.org/">Galaxy</a> instance of <a href="https://datacore.sites.vib.be/">VIB Data Core</a> and <a href="https://elixir-belgium.org/">ELIXIR Belgium</a> hosted at <a href="https://www.vscentrum.be/">VSC</a> (Flemish Supercomputer Centre) to enable accessible, reproducible and transparent computational research. Galaxy supports thousands of documented and maintained tools that are free to use. 
 </p>
 
 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 my-4 text-center g-4">
@@ -20,11 +20,11 @@ frontpage: true
                 <ul class="list-unstyled m-0 ">
                     <li><b class="title">50GB of storage</b></li>
                     <li>For every registered user</li>
-                    <li>Do you need more storage?</li>
+                    <li>Need more storage?</li>
                 </ul>
             </div>
             <div class="card-footer bg-white border-top-0">
-                <a href="{{'/request-quota' | relative_url }}" type="button" class="btn btn-outline-primary w-100">Request now</a>
+                <a href="{{'/request-quota' | relative_url }}" type="button" class="btn btn-outline-primary w-100">Request more</a>
             </div>
         </div>
     </div>
@@ -35,11 +35,11 @@ frontpage: true
                 <ul class="list-unstyled m-0">
                     <li><b class="title">Hundreds of reference datasets</b></li>
                     <li>To be used in your workflow or tool</li>
-                    <li>Don't find your reference genome?</li>
+                    <li>Need an additional reference dataset?</li>
                 </ul>
             </div>
             <div class="card-footer bg-white border-top-0">
-                <a href="{{'/request-reference-data' | relative_url }}" type="button" class="btn btn-outline-primary w-100">Request now</a>
+                <a href="{{'/request-reference-data' | relative_url }}" type="button" class="btn btn-outline-primary w-100">Request reference data</a>
             </div>
         </div>
     </div>
@@ -50,11 +50,11 @@ frontpage: true
                 <ul class="list-unstyled m-0">
                     <li><b class="title">Thousands of tools available</b></li>
                     <li>Ready to use</li>
-                    <li>You don't find your favorite tool?</li>
+                    <li>Don't find your favorite tool?</li>
                 </ul>
             </div>
             <div class="card-footer bg-white border-top-0">
-                <a href="{{'/request-tools' | relative_url }}" type="button" class="btn btn-outline-primary w-100">Request now</a>
+                <a href="{{'/request-tools' | relative_url }}" type="button" class="btn btn-outline-primary w-100">Request a tool</a>
             </div>
         </div>
     </div>
@@ -82,8 +82,7 @@ frontpage: true
                     <div>
                         <h2 class="mt-0">Training Infrastructure as a Service (TIaaS)</h2>
                         <p>
-                            Are you looking to run bioinformatics training using the Galaxy
-                            service? We provide free infrastructure for hosting Galaxy training
+                            Are you looking to run a training course using Galaxy? We provide free infrastructure for hosting Galaxy training
                             events, so your participants experience the fastest possible job times.
                             Don't let a job queue ruin your workshop!
                         </p>
@@ -101,7 +100,6 @@ frontpage: true
                         <img src="{{'assets/media/tiaas-logo.png' | relative_url }}" width="250px" alt="TIaaS logo">
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -109,18 +107,26 @@ frontpage: true
 
 <div class="row">
     <div class="col-12 col-md-6">
+        <!-- <div class="card rounded border-0 bg-light mb-4 shadow-sm">
+            <div class="card-body">
+                <h2 class="mt-0">Why use this instance?</h2>
+                <p>
+                    useGalaxy.be maintains tools, workflows and reference datasets as requested by the Belgian research community and together with on-demand training capacities we do our best making this platform the ideal place for Belgian researchers to perform their analyses. 
+                </p>
+            </div>
+        </div> -->
         <div class="card rounded border-0 bg-light mb-4 shadow-sm">
             <div class="card-body">
                 <div class="d-grid gap-3 d-lg-flex">
                     <div>
-                        <h2 class="mt-0">Get started</h2>
+                        <h2 class="mt-0">First time here?</h2>
                         <p>
-                            useGalaxy.be maintains tools, workflows and reference datasets as requested by the Belgian research community, making the platform the ideal place for Belgian researchers to perform their analyses.
+                             Have a look at our <a href="{{'/quick-start' | relative_url }}">Quick start guide</a> to get an impression of the general layout of Galaxy.
                         </p>
                     </div>
-                    <div class="d-flex align-items-center align-items-center">
-                        <a class="btn btn-primary px-4 text-nowrap" type="button" href="{{'/get-started' | relative_url }}">
-                            Read more
+                    <div class="d-flex align-items-center justify-content-center">
+                        <a class="btn btn-primary px-4 text-nowrap" type="button" href="{{'/quick-start' | relative_url }}">
+                            Quick start
                         </a>
                     </div>
                 </div>
@@ -147,17 +153,17 @@ frontpage: true
         <div class="card rounded border-0 bg-light mb-4 shadow-sm">
             <div class="card-body">
                 <h2 class="mt-0">Our Data Policy</h2>
-                <h3>Registered Users</h3>
+                <h3>Registered users</h3>
                 <p>
-                    User data on UseGalaxy.be (i.e. datasets, histories) will be available as long as they are not deleted by the user. Once marked as deleted the datasets will be permanently removed within 14 days. If the user "purges" the dataset in the Galaxy, it will be removed immediately, permanently. An extended quota can be requested for a limited time period in special cases. Please get in touch at galaxy@elixir-belgium.org
+                    User data on useGalaxy.be (i.e. datasets, histories) will be available as long as they are not deleted by the user. Once marked as deleted the datasets will be permanently removed within 14 days. If the user "purges" the dataset in the Galaxy, it will be removed immediately, permanently. An extended quota can be requested for a limited time period in special cases. Please get in touch at galaxy@elixir-belgium.org
                 </p>
 
                 <h3>Unregistered Users</h3>
                 <p>
-                    Processed data will only be accessible during one browser session, using a cookie to identify your data. This cookie is not used for any other purposes (e.g. tracking or analytics.) If UseGalaxy.be service is not accessed for 90 days, those datasets will be permanently deleted.
+                    Processed data will only be accessible during one browser session, using a cookie to identify your data. This cookie is not used for any other purposes (e.g. tracking or analytics.) If useGalaxy.be service is not accessed for 90 days, those datasets will be permanently deleted.
                 </p>
 
-                <h3>GDPR Compliance</h3>
+                <h3>GDPR compliance</h3>
                 <p>
                     The Galaxy service complies with the EU General Data Protection Regulation (GDPR). You can read more about this on our GDPR Compliance Documentation.
                 </p>
@@ -168,13 +174,30 @@ frontpage: true
         {% include news-list.html %}
         <div class="card rounded border-0 mt-4 shadow-sm">
             <div class="card-body">
+                <div class="d-grid gap-3 d-lg-flex">
+                    <div>
+                        <h2 class="mt-0">The Galaxy Project</h2>
+                        <p>
+                            useGalaxy.be is one of the Galaxy servers that make up the <a href="https://galaxyproject.org/usegalaxy/">usegalaxy.* initiative</a>. Along with <a href="https://usegalaxy.eu">Galaxy Europe</a> and <a href="https://usegalaxy.org">Galaxy Main</a> in the USA, the usegalaxy.* servers aim to provide a global publicly available bioinformatics resource.
+                        </p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <a class="btn btn-outline-primary px-4 text-nowrap" type="button" href="https://galaxyproject.org">
+                            The community
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card rounded border-0 mt-4 shadow-sm">
+            <div class="card-body">
                 <h2 class="mt-0">Acknowledgment Statement</h2>
                 <p>
                     When you use Galaxy Belgium to support your publication or project, please acknowledge its use with the following statement:
                 </p>
                 <blockquote class="blockquote mb-0">
                     <p class="fst-italic p-3 text-center">
-                        "This work is supported by <a href="useGalaxy.be">useGalaxy.be</a>, a service provided by <a href="https://datacore.sites.vib.be/">VIB Data Core</a> and <a href="https://elixir-belgium.org/">ELIXIR Belgium</a> (funded by Research Foundation-Flanders, project I000323N), hosted at <b>VSC</b> (Flemish Supercomputer Centre)."
+                        "This work is supported by <a href="https://useGalaxy.be">useGalaxy.be</a>, a service provided by <a href="https://datacore.sites.vib.be/">VIB Data Core</a> and <a href="https://elixir-belgium.org/">ELIXIR Belgium</a> (funded by Research Foundation-Flanders, project I000323N), hosted at <b>VSC</b> (Flemish Supercomputer Centre)."
                     </p>
                 </blockquote>
             </div>

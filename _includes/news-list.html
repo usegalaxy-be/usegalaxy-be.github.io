@@ -3,7 +3,7 @@
         <h2 class="mt-0">News</h2>
     </div>
     <div class="list-group list-group-flush">
-        {%- for news in site.posts limit: 7 %}
+        {%- for news in site.posts limit: 5 %}
         {%- if news.external %}
         <a href="{{news.external l}}" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
         {%- else %}

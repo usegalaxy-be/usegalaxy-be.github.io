@@ -1,8 +1,12 @@
 ---
-title: Getting started
+title: Quick start
 ---
 
-# How to use Galaxy?
+# Quick start
+
+This quick start guide will describe the interface you see here in Galaxy. 
+
+More in depth tutorials can be found on the [<i class="fa-solid fa-graduation-cap me-2"></i>Galaxy Training Network (GTN)](https://training.galaxyproject.org){: class="btn btn-outline-primary"}
 
 ## Tools
 
