@@ -6,7 +6,7 @@ subitems:
   icon: house
   icon_type: solid
 - title: Quick start
-  url: /quick-start
+  url: /get-started
   icon: location-arrow
   icon_type: solid
 - title: Request
