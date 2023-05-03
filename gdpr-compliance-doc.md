@@ -17,7 +17,7 @@ The only personal information we store that is associated with you, you can see 
 ### Right to Rectification of Personal Information
 You can do this on [https://usegalaxy.be/user/information](https://usegalaxy.be/user/information).
 
-### Right to be Erasure
+### Right to Erasure
 We can manually delete your account upon request. In the future this will be something you can do yourself when we can implement the feature upstream.
 
 ### Right to Restrict Processing
