@@ -4,6 +4,9 @@ title: GDPR Compliance Documentation
 
 # GDPR Compliance Documentation
 
+For questions and enquiries regarding GDPR, please contact us at [galaxy@elixir-belgium.org](mailto:galaxy@elixir-belgium.org) or fill in our [contact form]({{'/request-support' | relative_url }}).
+
+
 ## User Rights under the GDPR
 
 And how to exercise them in the context of the Galaxy Service provided by the Galaxy Belgium Team and the Belgium Galaxy Community.
