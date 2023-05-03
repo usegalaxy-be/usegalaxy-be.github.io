@@ -118,11 +118,8 @@ main {
 }
 
 // Hover shadow tiles homepage
-.front-panel{
+.shadow-hover{
     &:hover {
     box-shadow: $box-shadow !important;
-  }
-  .title {
-    font-size: $card-title-size;
   }
 }
