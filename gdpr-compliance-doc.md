@@ -6,13 +6,13 @@ title: GDPR Compliance Documentation
 
 ## User Rights under the GDPR
 
-And how to exercise them in the context of the Galaxy Service provided by the Galaxy Freiburg Team and the European Galaxy Community.
+And how to exercise them in the context of the Galaxy Service provided by the Galaxy Belgium Team and the Belgium Galaxy Community.
 
 ### Right to Access to Personal Information
-The only personal information we store that is associated with you, you can see on https://usegalaxy.be/user/information We have logs containing IP addresses but these logs are destroyed after 24 hours and are not associated with a single user account.
+The only personal information we store that is associated with you, you can see on [https://usegalaxy.be/user/information](https://usegalaxy.be/user/information) We have logs containing IP addresses but these logs are destroyed after 24 hours and are not associated with a single user account.
 
 ### Right to Rectification of Personal Information
-You can do this on https://usegalaxy.be/user/information
+You can do this on [https://usegalaxy.be/user/information](https://usegalaxy.be/user/information).
 
 ### Right to be Erasure
 We can manually delete your account upon request. In the future this will be something you can do yourself when we can implement the feature upstream.
