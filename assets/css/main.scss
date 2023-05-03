@@ -117,9 +117,14 @@ main {
   min-width: 180px;
 }
 
-// Hover shadow tiles homepage
+// Hover shadow
 .shadow-hover{
     &:hover {
     box-shadow: $box-shadow !important;
   }
+}
+
+// Bigger font for card titles
+.card .card-title {
+  font-size: $card-title-size;
 }
