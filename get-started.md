@@ -6,7 +6,7 @@ title: Quick start
 
 This quick start guide will describe the interface you see here in Galaxy. 
 
-More in depth tutorials can be found on the [<i class="fa-solid fa-graduation-cap me-2"></i>Galaxy Training Network (GTN)<i class="fa-solid fa-arrow-up-right-from-square ms-2 fa-sm"></i>](https://training.galaxyproject.org){: class="btn btn-sm btn-outline-primary px-3"}
+More in depth tutorials can be found on the [<i class="fa-solid fa-graduation-cap me-2"></i>Galaxy Training Network (GTN)<i class="fa-solid fa-arrow-up-right-from-square ms-2 fa-sm"></i>](https://training.galaxyproject.org){: class="p-2 rounded btn-outline-primary px-3"}
 
 ## Tools
 
@@ -31,11 +31,11 @@ The color of a dataset designates the current status of the underlying job
 
 Color                                     | State
 ---                                       | ---
-<span class="btn btn-sm" style="background-color: #e9ecef">Gray</span>     | The job is being evaluated to run (new dataset) or is queued. Allow this to complete.
-<span class="btn btn-sm" style="background-color: #ffe6cd">Yellow</span> | The job is executing.
-<span class="btn btn-sm" style="background-color: #c2ebc2">Green</span>   | Successful processing.
-<span class="btn btn-sm" style="background-color: #f4a3a5">Red</span>       | The job has failed.
-<span class="btn btn-sm" style="background-color: #a6c9e1">Blue</span>     | The job is paused. This indicates either a problem with an input (a previous step in the workflow may have failed) or that you have exceeded disk quota set by the administrator of the Galaxy instance you are working on.
+<span class="p-2 rounded" style="background-color: #e9ecef">Gray</span>     | The job is being evaluated to run (new dataset) or is queued. Allow this to complete.
+<span class="p-2 rounded" style="background-color: #ffe6cd">Yellow</span> | The job is executing.
+<span class="p-2 rounded" style="background-color: #c2ebc2">Green</span>   | Successful processing.
+<span class="p-2 rounded" style="background-color: #f4a3a5">Red</span>       | The job has failed.
+<span class="p-2 rounded" style="background-color: #a6c9e1">Blue</span>     | The job is paused. This indicates either a problem with an input (a previous step in the workflow may have failed) or that you have exceeded disk quota set by the administrator of the Galaxy instance you are working on.
 {: .table}
 
 ## Workflows
