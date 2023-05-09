@@ -10,5 +10,11 @@
   messages:
     - message: |
         Due to maintenance work on the VSC cloud and UseGalaxy.be servers there is a possibility of downtime of the web server during Tuesday 16.05.2023 and Wednesday 17.05.2023 (and potentially the days following). We will do our best to keep the downtime to a minimum. 
+        
+- title: Training 15.05.2023
+  class: info  # one of [success, info, warning, danger]
+  messages:
+    - message: |
+        Due to a training planned on 15.05.2023 traffic on usegalaxy.be can potentially be slow. Jobs submitted by users not part of the training are in a lower priority queue.
 
 
