@@ -1,5 +1,5 @@
 ---
-title: GDPR Compliance Documentation
+title: GDPR Compliance and Terms of Service
 ---
 
 # GDPR Compliance Documentation
@@ -32,7 +32,7 @@ All of the processing activities we currently do are required to use the service
 ### Right to Not be Subject to Automated Decision-making Including Profiling
 We do not profile our users, nor do any form of automated decision making based on personal data.
 
-## Terms of Service
+# Terms of Service
 
 ### Use of Service
 UseGalaxy.be is a free, public, Internet accessible resource (the “Service”). Data transfer is encrypted unless you choose to use unencrypted FTP access. Data storage is not encrypted. If there are restrictions on the way your research data can be stored and used, please consult your local institutional review board or the project principal investigator before uploading it to any public site, including this Service. If you have protected data, large data storage requirements, or short deadlines you are encouraged to set up your own local Galaxy instance and not use this Service. Your access to the service may be revoked at any time for reasons deemed necessary by the operators of the Service.
