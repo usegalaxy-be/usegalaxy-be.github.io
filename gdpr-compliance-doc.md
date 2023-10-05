@@ -1,10 +1,10 @@
 ---
-title: GDPR Compliance Documentation
+title: GDPR Compliance and Terms of Service
 ---
 
-# GDPR Compliance Documentation
+# GDPR Compliance and Terms of Service
 
-For questions and enquiries regarding GDPR, please contact us at [galaxy@elixir-belgium.org](mailto:galaxy@elixir-belgium.org) or fill in our [contact form]({{'/request-support' | relative_url }}).
+For questions and enquiries regarding GDPR and the Terms of Service, please contact us at [galaxy@elixir-belgium.org](mailto:galaxy@elixir-belgium.org) or fill in our [contact form]({{'/request-support' | relative_url }}).
 
 
 ## User Rights under the GDPR
