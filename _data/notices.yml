@@ -5,11 +5,11 @@
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 
 
-# - title: Maintenance work 30.05.2023 - 02.06.2023 
-#   class: danger  # one of [success, info, warning, danger]
-#   messages:
-#     - message: |
-#         Due to maintenance work on the VSC cloud and UseGalaxy.be servers there is a possibility of downtime of the web server during . We will do our best to keep the downtime to a minimum. 
+- title: Maintenance work 25.10.2023 - 27.10.2023 
+  class: danger  # one of [success, info, warning, danger]
+  messages:
+    - message: |
+        Due to maintenance work on the VSC cloud and UseGalaxy.be servers there is a possibility of downtime of the web server during. We will do our best to keep the downtime to a minimum. 
         
 # - title: Training 15.05.2023
 #   class: info  # one of [success, info, warning, danger]
