@@ -5,7 +5,7 @@
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 
 
-- title: Maintenance work 17.11.2023 - 19.11.2023 
+- title: Maintenance work 22.11.2023 - 24.11.2023 
   class: danger  # one of [success, info, warning, danger]
   messages:
     - message: |
