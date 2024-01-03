@@ -5,11 +5,11 @@
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 
 
- - title: Galaxy Update
-   class: info     # one of [success, info, warning, danger]
-   messages:
-       - message: |
-           UseGalaxy.be has been updated to version 23.0! In the following days we'll be doing extensive testing of the new version!  
+# - title: Galaxy Update
+#   class: info     # one of [success, info, warning, danger]
+#   messages:
+#       - message: |
+#           UseGalaxy.be has been updated to version 23.0! In the following days we'll be doing extensive testing of the new version!  
 
 
 #- title: Maintenance work Today (03-12-2023) at 18:00 CET 
