@@ -5,10 +5,10 @@
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 
  - title: Issue with uploading data
-   class: warning  # one of [success, info, warning, danger]
+   class: success  # one of [success, info, warning, danger]
    messages:
      - message: |
-         Due to an issue there are currently problems uploading data to usegalaxy.be, we're currently trying to resolve this. 
+         The issue with data upload has been resolved. 
 
 # - title: Galaxy Update
 #   class: info     # one of [success, info, warning, danger]
