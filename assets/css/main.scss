@@ -10,15 +10,34 @@ permalink: assets/css/main
 $galaxy-blue:#003399;
 $galaxy-yellow: #D0BD2B;
 
-$primary: $galaxy-blue;
+$primary: #25537b;
 $light: #f8f9fa;
-$blue-link: #25537b;
+$blue-link: $primary;
 $dark: #2c3143;
 
 /*-----Bootstrap variables-----*/
 
 
 @import "bootstrap/variables";
+
+
+.btn-galaxy {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: #2c3143!important;
+  --bs-btn-bg: #dee2e6!important;
+  --bs-btn-border-color: #bdc6d0!important;
+  --bs-btn-hover-color: #2c3143!important;
+  --bs-btn-hover-bg: #c1c9d0!important;
+  --bs-btn-hover-border-color: #c1c9d0!important;
+  --bs-btn-active-color: #2c3143!important;
+  --bs-btn-active-bg: #c1c9d0!important;
+  --bs-btn-active-border-color: #bac2cb!important;
+}
+
+.btn-galaxy:focus {
+  box-shadow: 0 0 0 0.2rem rgba(195,199,206,.5)!important;
+}
+
 
 $link-color: $blue-link;
 $link-decoration: none;
