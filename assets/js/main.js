@@ -33,9 +33,24 @@ $(document).ready(function () {
 $(document).ready(function external_new_window() {
     for (var c = document.getElementsByTagName("a"), a = 0; a < c.length; a++) {
         var b = c[a];
-        if (b.getAttribute("href") && b.hostname !== location.hostname) {
+        if (b.getAttribute("href") && b.hostname !== location.hostname && !b.classList.contains("local-link")) {
             b.target = "_blank";
             b.rel = "noopener";
         }
     }
+});
+
+
+/**
+ * Function to alter the url behaviour when opened inside of an iframe
+ */
+document.addEventListener("DOMContentLoaded", function() {
+    var localLinks = document.querySelectorAll("a.local-link");
+    localLinks.forEach(function(link) {
+        link.addEventListener("click", function(event) {
+            event.preventDefault();
+            var newUrl = link.getAttribute("href");
+            window.top.location.href = newUrl;
+        });
+    });
 });
