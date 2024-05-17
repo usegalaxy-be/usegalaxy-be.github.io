@@ -172,23 +172,7 @@ frontpage: true
                 </p>
             </div>
         </div>
-    </div>
-    <div class="col-12 col-md-6">
-        {% include news-list.html %}
-        <div class="card rounded border-0 mt-4 shadow-sm">
-            <div class="card-body">
-                <h2 class="mt-0">The Galaxy Project</h2>
-                <p>
-                    useGalaxy.be is one of the Galaxy servers that make up the <a href="https://galaxyproject.org/usegalaxy/">usegalaxy.* initiative</a>. Along with <a href="https://usegalaxy.eu">Galaxy Europe</a> and <a href="https://usegalaxy.org">Galaxy Main</a> in the USA, the usegalaxy.* servers aim to provide a global publicly available bioinformatics resource.
-                </p>
-                <div class="d-flex align-items-center">
-                    <a class="btn btn-sm btn-galaxy px-3 text-nowrap" type="button" href="https://galaxyproject.org">
-                        Community Hub<i class="fa-solid fa-arrow-up-right-from-square ms-2 fa-sm"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="card rounded border-0 mt-4 shadow-sm">
+        <div class="card rounded border-0 shadow-sm mb-4">
             <div class="card-body">
                 <h2 class="mt-0">Acknowledgment Statement</h2>
                 <p>
@@ -199,6 +183,46 @@ frontpage: true
                         "This work is supported by <a href="https://useGalaxy.be">useGalaxy.be</a>, a service provided by <a href="https://datacore.sites.vib.be/">VIB Data Core</a> and <a href="https://elixir-belgium.org/">ELIXIR Belgium</a> (funded by Research Foundation-Flanders, project I000323N), hosted at <b>VSC</b> (Flemish Supercomputer Centre)."
                     </p>
                 </blockquote>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-6">
+        <div class="card rounded border-0 mb-4 shadow-sm bg-light">
+            <div class="card-body">
+                <div class="d-grid gap-3 d-lg-flex">
+                    <div>
+                        <h2 class="mt-0">Data deposition</h2>
+                        <p>
+                            Do you want to submit your raw sequences to <a href="https://www.ebi.ac.uk/ena/">ENA</a>, the European Nucleotide Archive? We offer an easy to use upload tool that uses <a href="https://github.com/ELIXIR-Belgium/ENA-metadata-templates">template spreadsheets</a> to add and modify all <a href="https://ena-docs.readthedocs.io/en/latest/submit/general-guide/metadata.html">ENA metadata objects</a>.   
+                        </p>
+                        <div class="d-grid gap-3 d-sm-flex">
+                            <a class="btn btn-sm btn-galaxy px-3" type="button" href="https://usegalaxy.be/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fena_upload%2Fena_upload">
+                                <i class="fa-solid fa-play me-2"></i>Use the tool
+                            </a>
+
+                            <a class="btn btn-sm btn-galaxy px-3" type="button" href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/upload-data-to-ena/tutorial.html">
+                                <i class="fa-solid fa-graduation-cap me-2"></i>Training
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="ena-img" src="{{'assets/media/ena_upload_toolbox.svg' | relative_url }}" width="250px" alt="ENA logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% include news-list.html %}
+        <div class="card rounded border-0 mb-4 shadow-sm">
+            <div class="card-body">
+                <h2 class="mt-0">The Galaxy Project</h2>
+                <p>
+                    useGalaxy.be is one of the Galaxy servers that make up the <a href="https://galaxyproject.org/usegalaxy/">usegalaxy.* initiative</a>. Along with <a href="https://usegalaxy.eu">Galaxy Europe</a> and <a href="https://usegalaxy.org">Galaxy Main</a> in the USA, the usegalaxy.* servers aim to provide a global publicly available bioinformatics resource.
+                </p>
+                <div class="d-flex align-items-center">
+                    <a class="btn btn-sm btn-galaxy px-3 text-nowrap" type="button" href="https://galaxyproject.org">
+                        Community Hub<i class="fa-solid fa-arrow-up-right-from-square ms-2 fa-sm"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
