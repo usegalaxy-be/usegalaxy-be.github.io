@@ -4,11 +4,11 @@
 #       - message: |
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 
- - title: Issue with uploading data
-   class: success  # one of [success, info, warning, danger]
-   messages:
-     - message: |
-         The issue with data upload has been resolved. 
+ # - title: Issue with uploading data
+ #   class: success  # one of [success, info, warning, danger]
+ #   messages:
+ #     - message: |
+ #         The issue with data upload has been resolved. 
 
 # - title: Galaxy Update
 #   class: info     # one of [success, info, warning, danger]
