@@ -17,11 +17,12 @@
 #           UseGalaxy.be has been updated to version 23.0! In the following days we'll be doing extensive testing of the new version!  
 
 
-#- title: Maintenance work Today (03-12-2023) at 18:00 CET 
-#  class: danger  # one of [success, info, warning, danger]
-#  messages:
-#    - message: |
-#        Due to maintenance work on the VSC cloud and UseGalaxy.be servers there is a possibility of downtime of the web server during the above mentioned period. Please refrain from submitting long running jobs at this time. We will do our best to keep the downtime to a minimum. 
+- title: Possible Service Interruption Tomorrow (13-08-2024) between 20:00 (CEST) and 23:00 (CEST) 
+  class: danger  # one of [success, info, warning, danger]
+  messages:
+    - message: |
+        Due to maintenance work by our Internet Service Provider there is a possibility of interruption of access to UseGalaxy.be during the above mentioned period.
+        Please ensure that data transfers in and out of UseGalaxy.be are completed prior to the mentioned window.
         
 # - title: Training 15.05.2023
 #   class: info  # one of [success, info, warning, danger]
