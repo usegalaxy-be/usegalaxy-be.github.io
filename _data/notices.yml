@@ -17,7 +17,7 @@
 #           UseGalaxy.be has been updated to version 23.0! In the following days we'll be doing extensive testing of the new version!  
 
 
-- title: Possible Service Interruption Tomorrow (13-08-2024) between 20:00 (CEST) and 23:00 (CEST) 
+- title: Possible Service Interruption Today (13-08-2024) between 20:00 (CEST) and 23:00 (CEST) 
   class: danger  # one of [success, info, warning, danger]
   messages:
     - message: |
