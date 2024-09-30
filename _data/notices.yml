@@ -10,18 +10,18 @@
  #     - message: |
  #         The issue with data upload has been resolved. 
 
-# - title: Galaxy Update
-#   class: info     # one of [success, info, warning, danger]
-#   messages:
-#       - message: |
-#           UseGalaxy.be has been updated to version 23.0! In the following days we'll be doing extensive testing of the new version!  
-
-
-- title: Possible Service Interruption Today (30-10-2024) between 15:30 (CEST) and 16:00 (CEST) 
-  class: danger  # one of [success, info, warning, danger]
+- title: Galaxy Config Update
+  class: info     # one of [success, info, warning, danger]
   messages:
-    - message: |
-        Due updates to the configuration a short outage is expected during the mentioned time
+      - message: |
+          UseGalaxy.be configuration has been updated succesfully. 
+
+
+# - title: Possible Service Interruption Today (30-10-2024) between 15:30 (CEST) and 16:00 (CEST) 
+#   class: danger  # one of [success, info, warning, danger]
+#   messages:
+#     - message: |
+#         Due updates to the configuration a short outage is expected during the mentioned time
 
         
 # Due to maintenance work by our Internet Service Provider there is a possibility of interruption of access to UseGalaxy.be during the above mentioned period.
