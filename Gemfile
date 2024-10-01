@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "webrick", "~> 1.8.1"
+gem "webrick", "~> 1.8.2"
 gem "jekyll", "~> 4.3.2"
 gem "jemoji", "~> 0.13.0"
 gem "kramdown-parser-gfm", "~> 1.1"
