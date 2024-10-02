@@ -10,17 +10,17 @@
  #     - message: |
  #         The issue with data upload has been resolved. 
 
-- title: Galaxy Config Update
-  class: success     # one of [success, info, warning, danger]
-  messages:
-      - message: |
-          UseGalaxy.be configuration has been updated succesfully.
+# - title: Galaxy Config Update
+#   class: success     # one of [success, info, warning, danger]
+#   messages:
+#       - message: |
+#           UseGalaxy.be configuration has been updated succesfully.
 
-- title: Legacy reference data temporarily unavailable
-  class: info     # one of [success, info, warning, danger]
-  messages:
-      - message: |
-          We're currently looking into moving legacy reference data to a more stable share and is therefore temporarilly unavailable. All other reference data hosted on CVMFS will stay available.
+# - title: Legacy reference data temporarily unavailable
+#   class: info     # one of [success, info, warning, danger]
+#   messages:
+#       - message: |
+#           We're currently looking into moving legacy reference data to a more stable share and is therefore temporarilly unavailable. All other reference data hosted on CVMFS will stay available.
 
 
 # - title: Possible Service Interruption Today (30-10-2024) between 15:30 (CEST) and 16:00 (CEST) 
