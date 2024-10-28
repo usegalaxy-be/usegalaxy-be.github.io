@@ -9,6 +9,10 @@
    messages:
      - message: |
          We're running low on disk space, we'll be increasing space in the next two days. In the meantime some jobs may potentially fail.
+ - title: Data policy update
+   class: warning  # one of [success, info, warning, danger]
+     - message: |
+         We have updated our data policy to better reflect the intended use of our service. More information in the Our Data Policy tile.        
 
 # - title: Galaxy Config Update
 #   class: success     # one of [success, info, warning, danger]
