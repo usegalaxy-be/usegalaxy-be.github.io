@@ -8,7 +8,7 @@
    class: warning  # one of [success, info, warning, danger]
    messages:
      - message: |
-         **Disk space warning:** We're running low on disk space, we'll be increasing space in the next two days. In the meantime some jobs may potentially fail.
+         **Disk space warning:** We're running low on disk space, we'll be increasing space in the next days. In the meantime some jobs may potentially fail.
      - message: |
          **Data policy update:** We have updated our data policy to better reflect the intended use of our service. More information in the *Our Data Policy* tile.        
 
