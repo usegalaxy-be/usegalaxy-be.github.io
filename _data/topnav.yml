@@ -36,10 +36,10 @@ subitems:
 #   url: /events
 # - title: News
 #   url: /news
-- title: Current load
-  icon: chart-line
-  icon_type: solid
-  url: /current-load
+#- title: Current load
+#  icon: chart-line
+#  icon_type: solid
+#  url: /current-load
 # - title: Tools
 #   url: /tools
 #   icon: screwdriver-wrench
