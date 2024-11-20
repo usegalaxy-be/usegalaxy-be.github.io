@@ -4,11 +4,11 @@
 #       - message: |
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 
- - title: Possible Service Interruption due to ISP maintenace on 19-11-2024, between 20:00:00 (CEST) and 23:59:59 (CEST)
-   class: warning  # one of [success, info, warning, danger]
-   messages:
-      - message: |
-          Due to ISP maintenance outage is expected during the mentioned time
+ # - title: Possible Service Interruption due to ISP maintenace on 19-11-2024, between 20:00:00 (CEST) and 23:59:59 (CEST)
+ #   class: warning  # one of [success, info, warning, danger]
+ #   messages:
+ #      - message: |
+ #          Due to ISP maintenance outage is expected during the mentioned time
          
  - title: Possible Service Interruption due to Galaxy upgrade to v24.1 scheduled on 03-12-2024, between 16:00:00 (CEST) and 18:00:00 (CEST)
    class: warning  # one of [success, info, warning, danger]
