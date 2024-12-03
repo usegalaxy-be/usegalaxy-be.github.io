@@ -10,17 +10,17 @@
  #      - message: |
  #          Due to ISP maintenance outage is expected during the mentioned time
          
- - title: Possible Service Interruption due to Galaxy upgrade to v24.1 scheduled on 03-12-2024, between 16:00:00 (CEST) and 23:59:00 (CEST)
-   class: warning  # one of [success, info, warning, danger]
-   messages:
-      - message: |
-          Update: the maintenance period is extended until midnight. Due updates to the configuration a short outage is expected during the mentioned time. 
+ # - title: Possible Service Interruption due to Galaxy upgrade to v24.1 scheduled on 03-12-2024, between 16:00:00 (CEST) and 23:59:00 (CEST)
+ #   class: warning  # one of [success, info, warning, danger]
+ #   messages:
+ #      - message: |
+ #          Update: the maintenance period is extended until midnight. Due updates to the configuration a short outage is expected during the mentioned time. 
 
-# - title: Galaxy Config Update
-#   class: success     # one of [success, info, warning, danger]
-#   messages:
-#       - message: |
-#           UseGalaxy.be configuration has been updated succesfully.
+- title: UseGalaxy.be has been updated to 24.1
+  class: success     # one of [success, info, warning, danger]
+  messages:
+      - message: |
+          UseGalaxy.be has been updated succesfully.
 
 # - title: Legacy reference data temporarily unavailable
 #   class: info     # one of [success, info, warning, danger]
