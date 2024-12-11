@@ -1,6 +1,6 @@
 ---
 title: Galactic September News
-tags: [galaxy]
+tags: [galaxy project]
 external: https://galaxyproject.org/news/2019-09-galaxy-update/
 ---
 
