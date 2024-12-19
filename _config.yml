@@ -1,7 +1,7 @@
 # Site settings
 title: "Galaxy Belgium"
 description: Belgian Galaxy Instance
-email: galaxy@elixir-belgium.org
+email: datacore.galaxy@vib.be
 url: "https://usegalaxy.be" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: ELIXIRnodeBE
 github_username:  usegalaxy-be
