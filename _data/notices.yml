@@ -20,7 +20,7 @@
   class: danger  # one of [success, info, warning, danger]
   messages:
     - message: |
-        We are currently investigating intermittent outages
+        We are currently investigating intermittent outages, job submission is locked until further notice. 
 
 - title: UseGalaxy.be has been updated to 24.1
   class: success     # one of [success, info, warning, danger]
