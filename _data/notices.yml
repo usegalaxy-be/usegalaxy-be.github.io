@@ -16,6 +16,12 @@
  #      - message: |
  #          Update: the maintenance period is extended until midnight. Due updates to the configuration a short outage is expected during the mentioned time. 
 
+- title: Intermittent outages 
+  class: danger  # one of [success, info, warning, danger]
+  messages:
+    - message: |
+        We are currently investigating intermittent outages
+
 - title: UseGalaxy.be has been updated to 24.1
   class: success     # one of [success, info, warning, danger]
   messages:
