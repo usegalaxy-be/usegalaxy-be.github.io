@@ -7,8 +7,8 @@ permalink: assets/css/main
 
 /*-----Theme colors-----*/
 
-$galaxy-blue:#003399;
-$galaxy-yellow: #D0BD2B;
+$galaxy-blue: #003399;
+$galaxy-yellow: #d0bd2b;
 
 $primary: #25537b;
 $light: #f8f9fa;
@@ -17,44 +17,57 @@ $dark: #2c3143;
 
 /*-----Bootstrap variables-----*/
 
-
 @import "bootstrap/variables";
-
 
 .btn-galaxy {
   --bs-btn-font-weight: 600;
-  --bs-btn-color: #2c3143!important;
-  --bs-btn-bg: #dee2e6!important;
-  --bs-btn-border-color: #bdc6d0!important;
-  --bs-btn-hover-color: #2c3143!important;
-  --bs-btn-hover-bg: #c1c9d0!important;
-  --bs-btn-hover-border-color: #c1c9d0!important;
-  --bs-btn-active-color: #2c3143!important;
-  --bs-btn-active-bg: #c1c9d0!important;
-  --bs-btn-active-border-color: #bac2cb!important;
+  --bs-btn-color: #2c3143 !important;
+  --bs-btn-bg: #dee2e6 !important;
+  --bs-btn-border-color: #bdc6d0 !important;
+  --bs-btn-hover-color: #2c3143 !important;
+  --bs-btn-hover-bg: #c1c9d0 !important;
+  --bs-btn-hover-border-color: #c1c9d0 !important;
+  --bs-btn-active-color: #2c3143 !important;
+  --bs-btn-active-bg: #c1c9d0 !important;
+  --bs-btn-active-border-color: #bac2cb !important;
 }
 
 .btn-galaxy:focus {
-  box-shadow: 0 0 0 0.2rem rgba(195,199,206,.5)!important;
+  box-shadow: 0 0 0 0.2rem rgba(195, 199, 206, 0.5) !important;
 }
-
 
 $link-color: $blue-link;
 $link-decoration: none;
 $card-cap-padding-y: $card-spacer-y;
-$box-shadow-sm: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-$box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px, rgba($primary, .1) 0px 8px 20px,;
+$box-shadow-sm:
+  rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+  rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+$box-shadow:
+  rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+  rgba(60, 64, 67, 0.15) 0px 1px 3px 1px,
+  rgba($primary, 0.1) 0px 8px 20px;
 // Font changes
 @font-face {
   font-family: "Atkinson Hyperlegible";
-  src: 
+  src:
     url("../webfonts/AtkinsonHyperlegible-Regular.woff2") format("woff2"),
     url("../webfonts/AtkinsonHyperlegible-Bold.woff2") format("woff2"),
     url("../webfonts/AtkinsonHyperlegible-Italic.woff2") format("woff2"),
     url("../webfonts/AtkinsonHyperlegible-BoldItalic.woff2") format("woff2");
 }
 
-$font-family-base: "Atkinson Hyperlegible", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$font-family-base:
+  "Atkinson Hyperlegible",
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  "Helvetica Neue",
+  Arial,
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol";
 $font-size-base: 0.85rem;
 $lead-font-size: 1rem;
 $card-title-size: 0.95rem;
@@ -62,7 +75,6 @@ $blockquote-font-size: $font-size-base * 1.1;
 $h1-font-size: $font-size-base * 2;
 $h2-font-size: $font-size-base * 1.5;
 $h3-font-size: $font-size-base * 1.3;
-
 
 // Create new theme colors
 $custom-colors: (
@@ -72,7 +84,6 @@ $custom-colors: (
 
 // Merge the maps
 $theme-colors: map-merge($theme-colors, $custom-colors);
-
 
 /*-----Include other SASS files-----*/
 
@@ -113,7 +124,8 @@ main {
     font-weight: bold;
   }
 
-  b, strong {
+  b,
+  strong {
     font-weight: bold;
   }
 
@@ -137,8 +149,8 @@ main {
 }
 
 // Hover shadow
-.shadow-hover{
-    &:hover {
+.shadow-hover {
+  &:hover {
     box-shadow: $box-shadow !important;
   }
 }
@@ -150,4 +162,9 @@ main {
 
 .ena-img {
   max-width: 140px;
+}
+
+// Notices
+.notice-message p {
+  margin-bottom: 0;
 }
