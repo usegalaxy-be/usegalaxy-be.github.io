@@ -22,11 +22,11 @@
     - message: |
         The issues have been resolved and job submission is unlocked again. Apologies for any inconvenience caused. 
 
-- title: UseGalaxy.be has been updated to 24.1
-  class: success     # one of [success, info, warning, danger]
-  messages:
-      - message: |
-          UseGalaxy.be has been updated succesfully.
+# - title: UseGalaxy.be has been updated to 24.1
+#   class: success     # one of [success, info, warning, danger]
+#   messages:
+#       - message: |
+#           UseGalaxy.be has been updated succesfully.
 
 # - title: Legacy reference data temporarily unavailable
 #   class: info     # one of [success, info, warning, danger]
