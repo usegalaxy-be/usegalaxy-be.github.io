@@ -4,11 +4,11 @@
 #       - message: |
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 
- - title: Life Science Login currently unavailable
-   class: warning  # one of [success, info, warning, danger]
+ - title: Life Science Login available again
+   class: success  # one of [success, info, warning, danger]
    messages:
       - message: |
-          Due to internal issues LS Login is currently unavailable, apologies for any incovenience caused. 
+          Issues with LS Login is available again.
  
  # - title: Possible Service Interruption due to ISP maintenace on 19-11-2024, between 20:00:00 (CEST) and 23:59:59 (CEST)
  #   class: warning  # one of [success, info, warning, danger]
