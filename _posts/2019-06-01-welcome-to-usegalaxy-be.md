@@ -11,5 +11,5 @@ Relevant code used to deploy and maintain this instance, together with associate
 Registration is free and open to anyone, you will get a total of 50GB to use on your own analysis.
 You can also explore and test the instance without the need to register, for this you get 5GB of space for data.
 
-In case of doubts or requests please contact galaxy@elixir-belgium.org.
+In case of doubts or requests please contact datacore.galaxy@vib.be (galaxy@elixir-belgium.org is deprecated).
 
