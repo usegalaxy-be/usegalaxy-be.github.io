@@ -14,7 +14,7 @@
     class: warning  # one of [success, info, warning, danger]
     messages:
        - message: |
-            Please take this downtime into account when planning your computational work. Please don't hesitate to contact us via cloud@vscentrum.beat galaxy.datacore@vib.be if you have any questions.
+            Please take this downtime into account when planning your computational work. Please don't hesitate to contact us via datacore.galaxy@vib.be if you have any questions.
 
 
          
