@@ -10,11 +10,13 @@
  #      - message: |
  #          Issues with LS Login is available again.
  
- # - title: Possible Service Interruption due to ISP maintenace on 19-11-2024, between 20:00:00 (CEST) and 23:59:59 (CEST)
- #   class: warning  # one of [success, info, warning, danger]
- #   messages:
- #      - message: |
- #          Due to ISP maintenance outage is expected during the mentioned time
+  - title: Possible downtime due to VSC Tier-1 Cloud infrastructure maintenance between Monday 24 (08:00 CET) and Friday 28 February 2025. 
+    class: warning  # one of [success, info, warning, danger]
+    messages:
+       - message: |
+            Please take this possible downtime into account when planning your computational work. Please don't hesitate to contact us via datacore.galaxy@vib.be if you have any questions.
+
+
          
  # - title: Possible Service Interruption due to Galaxy upgrade to v24.1 scheduled on 03-12-2024, between 16:00:00 (CEST) and 23:59:00 (CEST)
  #   class: warning  # one of [success, info, warning, danger]
