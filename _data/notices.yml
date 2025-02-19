@@ -10,7 +10,7 @@
  #      - message: |
  #          Issues with LS Login is available again.
  
-  - title: Possible downtime due to VSC Tier1 Cloud infrastructure maintenance between Monday 24 (08:00 CET) and Friday 28 February 2025. 
+  - title: Possible downtime due to VSC Tier-1 Cloud infrastructure maintenance between Monday 24 (08:00 CET) and Friday 28 February 2025. 
     class: warning  # one of [success, info, warning, danger]
     messages:
        - message: |
