@@ -16,6 +16,11 @@
        - message: |
             Please take this possible downtime into account when planning your computational work. Please don't hesitate to contact us via datacore.galaxy@vib.be if you have any questions.
 
+  - title: Problem with tool FastQC 
+    class: info  # one of [success, info, warning, danger]
+    messages:
+       - message: |
+            We are experiencing problems with the FastQC tool. Jobs using the tool will be stopped as it causes the queue to be stuck for all users. We are in the process of resolving the issue and apologize for the inconvenience.
 
          
  # - title: Possible Service Interruption due to Galaxy upgrade to v24.1 scheduled on 03-12-2024, between 16:00:00 (CEST) and 23:59:00 (CEST)
