@@ -12,19 +12,19 @@ For questions and enquiries regarding GDPR and the Terms of Service, please cont
 And how to exercise them in the context of the Galaxy Service provided by the Galaxy Belgium Team and the Belgium Galaxy Community.
 
 ### Right to Access to Personal Information
-The only personal information we store that is associated with you, you can see on [https://usegalaxy.be/user/information](https://usegalaxy.be/user/information) We have logs containing IP addresses but these logs are destroyed after 24 hours and are not associated with a single user account.
+The only personal information we store that is associated with you, you can see on [https://usegalaxy.be/user/information](https://usegalaxy.be/user/information). We have logs containing IP addresses but these logs are destroyed after 24 hours and are not associated with a single user account.
 
 ### Right to Rectification of Personal Information
 You can do this on [https://usegalaxy.be/user/information](https://usegalaxy.be/user/information).
 
 ### Right to Erasure
-We can manually delete your account upon request. In the future this will be something you can do yourself when we can implement the feature upstream.
+You can do this yourself via the 'Delete Account' option found in your 'User Preferences': [https://usegalaxy.be/user](https://usegalaxy.be/user).
 
 ### Right to Restrict Processing
-All of the processing activities we currently do are required to use the service. We do not transmit any PII to third parties.
+All of the processing activities we currently do are required to use the service. We do not transmit any Personally identifiable information (PII) to third parties.
 
 ### Right to Data Portability
-The upstream software Galaxy currently does not support this workflow, but does expose an interface that would allow us to do this. We are working on the implementation
+The upstream software Galaxy currently does not support this workflow, but does expose an interface that would allow us to do this. The Galaxy Project is [working on the implementation](https://github.com/galaxyproject/galaxy/issues/6082).
 
 ### Right to Object
 All of the processing activities we currently do are required to use the service. We do not transmit any PII to third parties. If we do processing activities in the future that do affect PII, we will inform you and permit you to opt-out.
@@ -48,4 +48,4 @@ You may choose to register an account with the Service. Your registration data i
 The Service is provided to you on an “AS IS” BASIS and WITHOUT WARRANTY, either express or implied, including, without limitation, the warranties of non-infringement, merchantability or fitness for a particular purpose. THE ENTIRE RISK AS TO THE QUALITY OF THE SERVICE IS WITH YOU. This DISCLAIMER OF WARRANTY constitutes an essential part of this service agreement.
 
 ### Limitation of Liability
-Under no circumstances and under no legal theory, whether in tort (including negligence), contract, or otherwise, shall VIB Data core, ELIXIR Belgium, VSC or any other entity which provides resources for the Service be liable to anyone for any indirect, special, incidental, or consequential damages of any character arising as a result of the use of this Service including, without limitation, damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses. This limitation of liability shall not apply to the extent applicable law prohibits such limitation.
+Under no circumstances and under no legal theory, whether in tort (including negligence), contract, or otherwise, shall VIB Data Core, ELIXIR Belgium, VSC or any other entity which provides resources for the Service be liable to anyone for any indirect, special, incidental, or consequential damages of any character arising as a result of the use of this Service including, without limitation, damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses. This limitation of liability shall not apply to the extent applicable law prohibits such limitation.
