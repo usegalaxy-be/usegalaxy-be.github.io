@@ -24,7 +24,7 @@ You can do this yourself via the 'Delete Account' option found in your 'User Pre
 All of the processing activities we currently do are required to use the service. We do not transmit any Personally identifiable information (PII) to third parties.
 
 ### Right to Data Portability
-The upstream software Galaxy currently does not support this workflow, but does expose an interface that would allow us to do this. The Galaxy Project is [working on the implementation](https://github.com/galaxyproject/galaxy/issues/6082).
+The upstream software Galaxy currently does not support this workflow, but does expose an interface that would allow us to do this. The [Galaxy Project](https://galaxyproject.org/) is working on the implementation.
 
 ### Right to Object
 All of the processing activities we currently do are required to use the service. We do not transmit any PII to third parties. If we do processing activities in the future that do affect PII, we will inform you and permit you to opt-out.
