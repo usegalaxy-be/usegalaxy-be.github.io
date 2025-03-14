@@ -18,7 +18,7 @@ The only personal information we store that is associated with you, you can see 
 You can do this on [https://usegalaxy.be/user/information](https://usegalaxy.be/user/information).
 
 ### Right to Erasure
-You can do this yourself via the 'Delete Account' option found in your 'User Preferences': [https://usegalaxy.be/user](https://usegalaxy.be/user).
+You can delete your account yourself via the 'Delete Account' option found in your 'User Preferences': [https://usegalaxy.be/user](https://usegalaxy.be/user).
 
 ### Right to Restrict Processing
 All of the processing activities we currently do are required to use the service. We do not transmit any Personally identifiable information (PII) to third parties.
