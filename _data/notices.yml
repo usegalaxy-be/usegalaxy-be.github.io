@@ -16,11 +16,11 @@
  #      - message: |
  #          Due to ISP maintenance outage is expected during the mentioned time
          
-  - title: Possible service interruption due to Galaxy upgrade to v24.2 scheduled on 15-03-2025, between 12:00:00 (CET) and 14:00:00 (CET)
-    class: warning  # one of [success, info, warning, danger]
-    messages:
-       - message: |
-           Due to updates to the configuration, a short outage is possible during the mentioned time. 
+  # - title: Possible service interruption due to Galaxy upgrade to v24.2 scheduled on 15-03-2025, between 12:00:00 (CET) and 14:00:00 (CET)
+  #   class: warning  # one of [success, info, warning, danger]
+  #   messages:
+  #      - message: |
+  #          Due to updates to the configuration, a short outage is possible during the mentioned time. 
 
 # - title: Intermittent outages resolved
 #   class: success  # one of [success, info, warning, danger]
