@@ -1,6 +1,6 @@
 # Homepages for useGalaxy.be 
 
-Pages are rendered using Jekyll based on the markdown files in the `master` branch.
+Pages are rendered using Jekyll based on the markdown files in the `main` branch.
 These changes get rendered to HTML pages and deployed using GitHub Pages.
 
 
