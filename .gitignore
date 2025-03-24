@@ -7,3 +7,4 @@ Gemfile.lock
 .sass-cache
 .git-metadata
 .tweet-cache
+.ruby-version
