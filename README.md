@@ -41,7 +41,7 @@ To change the url in the welcome page of usegalaxy.be, change: `/srv/galaxy/shar
 Additional information can be found at the following link: [https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll)
 
 
-### Deploy locally using Docker
+## Deploy locally using Docker
 
 If not already installed on your machine, install Docker. From the root of the `usegalaxy-be.github.io` directory, run:
 
