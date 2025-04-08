@@ -4,6 +4,13 @@
 #       - message: |
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 
+
+  - title: Change to Tier-1 Data as default storage backend scheduled on dd-mm-2025, between HH:00:00 (CEST) and HH:00:00 (CEST)
+    class: info  # one of [success, info, warning, danger]
+    messages:
+       - message: |
+           The default storage backend is changing to [VSC Tier-1 Data](https://docs.vscentrum.be/data/tier1data/introduction.html), which is an iRODS backend with built in data duplication. There won't be any noticeable impact for you.
+
  # - title: Life Science Login available again
  #   class: success  # one of [success, info, warning, danger]
  #   messages:
