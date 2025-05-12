@@ -5,7 +5,7 @@
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 
 
-  - title: Change to Tier-1 Data as default storage backend scheduled on dd-mm-2025, between HH:00:00 (CEST) and HH:00:00 (CEST)
+  - title: Change to Tier-1 Data as default storage backend scheduled on 19-05-2025, between 14:00:00 (CEST) and 20:00:00 (CEST)
     class: info  # one of [success, info, warning, danger]
     messages:
        - message: |
