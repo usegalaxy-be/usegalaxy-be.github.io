@@ -18,8 +18,8 @@
  #          Issues with LS Login is available again.
  
 - title: Expected service interruption on Friday 11 July 2025 for the entire day
-    class: warning  # one of [success, info, warning, danger]
-    messages:
+  class: warning  # one of [success, info, warning, danger]
+  messages:
        - message: |
            Due to Disaster Recovery Procedure (DRP) testing by UGent, outage is expected during the mentioned time. Please ensure that data transfers in and out of UseGalaxy.be are completed prior to the mentioned window.
         
