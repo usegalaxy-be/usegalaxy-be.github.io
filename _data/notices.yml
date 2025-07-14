@@ -17,12 +17,12 @@
  #      - message: |
  #          Issues with LS Login is available again.
  
-- title: Expected service interruption on Friday 11 July 2025 for the entire day
-  class: warning  # one of [success, info, warning, danger]
-  messages:
-       - message: |
-           Due to Disaster Recovery Procedure (DRP) testing affecting VSC Tier-1 Cloud, outage is expected during the mentioned time. Please ensure that data transfers in and out of UseGalaxy.be are completed prior to the mentioned window.
-        
+ # - title: Possible Service Interruption due to ISP maintenace on 19-11-2024, between 20:00:00 (CEST) and 23:59:59 (CEST)
+ #   class: warning  # one of [success, info, warning, danger]
+ #   messages:
+ #      - message: |
+ #          Due to ISP maintenance outage is expected during the mentioned time
+         
   # - title: Possible service interruption due to Galaxy upgrade to v24.2 scheduled on 15-03-2025, between 12:00:00 (CET) and 14:00:00 (CET)
   #   class: warning  # one of [success, info, warning, danger]
   #   messages:
