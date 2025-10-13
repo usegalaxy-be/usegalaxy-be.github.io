@@ -23,11 +23,11 @@
  #      - message: |
  #          Due to ISP maintenance outage is expected during the mentioned time
         
- - title: Possible service disruption due to Galaxy upgrade to v25.0 scheduled on Monday 13 October 2025, between 13:00:00 (CEST) and 22:00:00 (CEST).
-   class: warning  # one of [success, info, warning, danger]
-   messages:
-     - message: |
-         Due to updates to the Galaxy configuration, a short outage is possible during the mentioned time. 
+ # - title: Possible service disruption due to Galaxy upgrade to v25.0 scheduled on Monday 13 October 2025, between 13:00:00 (CEST) and 22:00:00 (CEST).
+ #   class: warning  # one of [success, info, warning, danger]
+ #   messages:
+ #     - message: |
+ #         Due to updates to the Galaxy configuration, a short outage is possible during the mentioned time. 
 
 # - title: Intermittent outages resolved
 #   class: success  # one of [success, info, warning, danger]
@@ -35,11 +35,11 @@
 #     - message: |
 #         The issues have been resolved and job submission is unlocked again. Apologies for any inconvenience caused. 
 
-# - title: UseGalaxy.be has been updated to 24.1
-#   class: success     # one of [success, info, warning, danger]
-#   messages:
-#       - message: |
-#           UseGalaxy.be has been updated succesfully.
+- title: UseGalaxy.be has been updated to 25.0
+  class: success     # one of [success, info, warning, danger]
+  messages:
+      - message: |
+          UseGalaxy.be has been updated succesfully.
 
 # - title: Legacy reference data temporarily unavailable
 #   class: info     # one of [success, info, warning, danger]
