@@ -10,11 +10,11 @@ You provide the training, we provide the <strong>infrastructure at no cost</stro
 
 <ul>
   <!-- <li>Separate queue where only your training’s jobs will run.</li> -->
-  <li>No Galaxy maintenance.</li>
-  <li>No Galaxy administration.</li>
-  <li>Free infrastructure.</li>
+  <li>No Galaxy maintenance</li>
+  <li>No Galaxy administration</li>
+  <li>Free infrastructure</li>
   <li>Make use of <a href="https://training.galaxyproject.org">Galaxy Training Materials</a>.</li>
-  <li>See how your students are progressing on a dashboard.</li>
+  <li>See how your students are progressing on a dashboard</li>
 </ul>
 
 <h2 id="how-tiaas-works">How TIaaS Works</h2>
@@ -55,7 +55,7 @@ your workshop, then some of the <a href="https://usegalaxy.be/libraries/folders/
 <p>To keep running this free service for your trainees, <strong>we need your feedback and support</strong>. It would be great if you could:</p>
 
 <ul>
-  <li>Write a (short) testimonial about your experience with the provided TIaaS.</li>
+  <li>Write us a (short) testimonial about your experience with the provided TIaaS for us to use in our promotional materials, reports, and funding applications.</li>
   <li>If you made use of GTN material, fill in the feedback form found at the end of every GTN tutorial.</li>
   </ul>
 
@@ -63,7 +63,7 @@ your workshop, then some of the <a href="https://usegalaxy.be/libraries/folders/
 
 <p>We <em>cannot</em> promise any degree of uptime. We will do our best to have this service online and functioning during the entire time period, but there are cases where the service may experience interruptions that are outside of our control.</p>
 
-<h2 id="eligibility">Eligibility</h2>
+<h2 id="Availability">Availability</h2>
 
 <p>While we strive to fulfill all the requests we receive, the availability of the service depends on overall resource and personnel availability.</p>
 
