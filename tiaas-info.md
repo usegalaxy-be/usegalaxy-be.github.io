@@ -3,7 +3,7 @@ title: Training Infrastructure as a Service
 --- 
 
 
-<p>The <a href="https://usegalaxy.be">Belgian Galaxy Server</a> provides <strong>Training Infrastructure as a Service (TIaaS)</strong> for the Galaxy training community.
+<p>The <a href="https://usegalaxy.be">useGalaxy.be</a> server provides <strong>Training Infrastructure as a Service (TIaaS)</strong> for the Galaxy training community.
 You provide the training, we provide the <strong>infrastructure at no cost</strong>.</p>
 
 <h2 id="why-tiaas">Why TIaaS?</h2>
@@ -30,7 +30,7 @@ You provide the training, we provide the <strong>infrastructure at no cost</stro
 
 <h3 id="before-the-training">Before the training</h3>
 
-<p>Before users can join a specific training, they need to be <strong>logged into the <a href="https://usegalaxy.be/">Belgian Galaxy server</a></strong>.</p>
+<p>Before users can join a specific training, they need to be <strong>logged into the <a href="https://usegalaxy.be/">useGalaxy.be</a> server</strong>.</p>
 
 <p>To <strong>import data</strong>:</p>
 
@@ -56,18 +56,16 @@ your workshop, then some of the <a href="https://usegalaxy.be/libraries/folders/
 
 <ul>
   <li>Write a (short) testimonial about your experience with the provided TIaaS.</li>
-  <li>Fill out the <a href="https://galaxyproject.org/news/2020-01-training-feedback/"><strong>GTN Survey</strong></a>.</li>
-  <li>Fill in the feedback form found at the end of every GTN tutorial.</li>
-  <li>Post your training experience on social media tagging @galaxyproject or #galaxyproject.</li>
-</ul>
+  <li>If you made use of GTN material, fill in the feedback form found at the end of every GTN tutorial.</li>
+  </ul>
 
-<h2 id="service-level-agreement">Service Level Agreement</h2>
+<h2 id="disclaimer">Disclaimer</h2>
 
-<p>We <em>cannot</em> promise any degree of uptime. We will do our best to have this service online and functioning during the entire time period, but there are cases where the service may experience interruptions that are outside of our control. We will keep you informed of any outages that may affect your training.</p>
+<p>We <em>cannot</em> promise any degree of uptime. We will do our best to have this service online and functioning during the entire time period, but there are cases where the service may experience interruptions that are outside of our control.</p>
 
 <h2 id="eligibility">Eligibility</h2>
 
-<p>We have enough capacity to provide for trainings using our service. Anyone providing training on Galaxy is eligible to request the use of this service.</p>
+<p>While we strive to fulfill all the requests we receive, the availability of the service depends on overall resource and personnel availability.</p>
 
 <h2 id="application-process">Application Process</h2>
 
@@ -81,9 +79,9 @@ your workshop, then some of the <a href="https://usegalaxy.be/libraries/folders/
   </li>
   <li>With the information that you input in the form, we will:
     <ul>
-      <li>Test the training material you plan on using,</li>
-      <li>Give you a URL your users will access to join the training,</li>
-      <li>give you a URL to the dashboard for you to see the queue status.</li>
+      <li>Test the training material you plan on using</li>
+      <li>Give you a URL your users will access to join the training</li>
+      <li>Give you a URL to the dashboard for you to see the queue status</li>
     </ul>
   </li>
   <li>Done! You are ready to run your training!</li>
