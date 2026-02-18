@@ -13,7 +13,7 @@ You provide the training, we provide the <strong>infrastructure at no cost</stro
   <li>No Galaxy maintenance</li>
   <li>No Galaxy administration</li>
   <li>Free infrastructure</li>
-  <li>Make use of <a href="https://training.galaxyproject.org">Galaxy Training Materials</a>.</li>
+  <li>Make use of <a href="https://training.galaxyproject.org">Galaxy Training Materials</a></li>
   <li>See how your students are progressing on a dashboard</li>
 </ul>
 
