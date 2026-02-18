@@ -3,18 +3,18 @@ title: Training Infrastructure as a Service
 --- 
 
 
-<p>The <a href="https://usegalaxy.be">Belgian Galaxy Server</a> provides <strong>Training Infrastructure as a Service (TIaaS)</strong> for the Galaxy training community.
+<p>The <a href="https://usegalaxy.be">useGalaxy.be</a> server provides <strong>Training Infrastructure as a Service (TIaaS)</strong> for the Galaxy training community.
 You provide the training, we provide the <strong>infrastructure at no cost</strong>.</p>
 
 <h2 id="why-tiaas">Why TIaaS?</h2>
 
 <ul>
   <!-- <li>Separate queue where only your training’s jobs will run.</li> -->
-  <li>No Galaxy maintenance.</li>
-  <li>No Galaxy administration.</li>
-  <li>Free infrastructure.</li>
+  <li>No Galaxy maintenance</li>
+  <li>No Galaxy administration</li>
+  <li>Free infrastructure</li>
   <li>Make use of <a href="https://training.galaxyproject.org">Galaxy Training Materials</a>.</li>
-  <li>See how your students are progressing on a dashboard.</li>
+  <li>See how your students are progressing on a dashboard</li>
 </ul>
 
 <h2 id="how-tiaas-works">How TIaaS Works</h2>
@@ -65,11 +65,11 @@ your workshop, the trainees can fetch the example input data themselves as expla
   <!-- <li>Post your training experience on social media tagging @galaxyproject or #galaxyproject.</li> -->
 </ul>
 
-<h2 id="service-level-agreement">Service Level Agreement</h2>
+<h2 id="disclaimer">Disclaimer</h2>
 
 <p>We <em>cannot</em> promise any degree of uptime. We will do our best to have this service online and functioning during the entire time period of the training, but there are cases where the service may experience interruptions that are outside of our control. We will keep you informed of any outages that may affect your training.</p>
 
-<h2 id="eligibility">Eligibility</h2>
+<h2 id="Availability">Availability</h2>
 
 <p>Anyone wanting to provide training on Galaxy BE is eligible to request the use of this service.</p>
 
