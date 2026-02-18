@@ -19,25 +19,29 @@ You provide the training, we provide the <strong>infrastructure at no cost</stro
 
 <h2 id="how-tiaas-works">How TIaaS Works</h2>
 
-<p>We have several “pools” of virtual machines (VMs) attached to useGalaxy.be that run user jobs. For trainings that request TIaaS, we attach a new pool of VMs that is specially labelled for that training. When users join a training using a <strong>special URL</strong> we provide you, they are assigned to a <strong>special training group</strong>. Their jobs will then <strong>preferentially run on a training machine</strong>, and, in the event there is no more capacity, they will run on the main queue. If a spot on a training VM opens up first, they will run there rather than continuing to wait in the main queue. The jobs run by the rest of users on our server are instructed to avoid the training pools.</p>
+<p>To get started, fill in <a href="https://usegalaxy.be/tiaas/calendar/">the TIaaS request form</a>. After the request is approved, you will receive two links from us:</p>
+<ul>
+  <li>A link to the monitoring page for the trainer to track the progress of the trainees</li>
+  <li>A link for the trainees to register themselves for the training</li>
+</ul>
 
 <p>Some more general information about the TIaaS service:</p>
 
 <ul>
-  <li><a href="https://usegalaxy.be/tiaas/calendar/">A calendar</a> that shows when TIaaS trainings are booked.</li>
-  <li><a href="https://usegalaxy.be/tiaas/stats/">Some statistics</a> about the TIaaS events.</li>
+  <li>It has <a href="https://usegalaxy.be/tiaas/calendar/">a calendar</a> that shows when TIaaS trainings are booked.</li>
+  <li>You can find <a href="https://usegalaxy.be/tiaas/stats/">some statistics</a> about the TIaaS events.</li>
 </ul>
 
 <h3 id="before-the-training">Before the training</h3>
 
-<p>Before users can join a specific training, they need to be <strong>logged into the <a href="https://usegalaxy.be/">Belgian Galaxy server</a></strong>.</p>
+<p>Before users can join a specific training, they need to be <strong>logged into the <a href="https://usegalaxy.be/">Belgian Galaxy server</a></strong>. Only then can they register themselves through the link received from the trainer.</p>
 
 <p>To <strong>import data</strong>:</p>
 
 <ul>
-  <li>
-    <p>If you are using the <a href="https://training.galaxyproject.org/">Galaxy Training Network (GTN) material</a> for
-your workshop, then some of the <a href="https://usegalaxy.be/libraries/folders/F71dd6a15eadf6281">training data is already available on Galaxy BE</a>.</p>
+  <li><!-- <p>If you are using the <a href="https://training.galaxyproject.org/">Galaxy Training Network (GTN) material</a> for
+your workshop, then some of the <a href="https://usegalaxy.be/libraries/folders/F71dd6a15eadf6281">training data is already available on Galaxy BE</a>.</p> --><p>If you are using the <a href="https://training.galaxyproject.org/">Galaxy Training Network (GTN) material</a> for
+your workshop, the trainees can fetch the example input data themselves as explained in the respective GTN guide. If you want to avoid potential temporary file transfer failures, you could provide the trainees with the data yourself beforehand as explained in the next point.</p>
   </li>
   <li>
     <p>If you are using your own data, you can upload it to your account into a history. Later, you can <a href="https://usegalaxy.be/histories/sharing">make it accessible</a> to your trainees. Your trainees will then be able to <a href="https://usegalaxy.be/histories/import">import your history</a> and start working with your data.</p>
@@ -52,22 +56,22 @@ your workshop, then some of the <a href="https://usegalaxy.be/libraries/folders/
 
 <p>Once the training is over, the data will stay available for further use. However, we encourage you to <strong>clean up all the histories</strong> whenever this data will not be used anymore.</p>
 
-<p>To keep running this free service for your trainees, <strong>we need your feedback and support</strong>. It would be great if you could:</p>
+<p>To keep running this free service for your trainees, <strong>we would like to ask your feedback and support</strong>. It would be great if you could:</p>
 
 <ul>
-  <li>Write a (short) testimonial about your experience with the provided TIaaS.</li>
-  <li>Fill out the <a href="https://galaxyproject.org/news/2020-01-training-feedback/"><strong>GTN Survey</strong></a>.</li>
-  <li>Fill in the feedback form found at the end of every GTN tutorial.</li>
-  <li>Post your training experience on social media tagging @galaxyproject or #galaxyproject.</li>
+  <li>Send us a (short) testimonial about your experience with the provided TIaaS to <a href="mailto:datacore.galaxy@vib.be">datacore.galaxy@vib.be</a>.</li>
+  <li>Fill out the general <a href="https://galaxyproject.org/news/2020-01-training-feedback/"><strong>GTN Survey</strong></a>.</li>
+  <li>Fill in the feedback form that can be found at the end of every GTN tutorial.</li>
+  <!-- <li>Post your training experience on social media tagging @galaxyproject or #galaxyproject.</li> -->
 </ul>
 
 <h2 id="service-level-agreement">Service Level Agreement</h2>
 
-<p>We <em>cannot</em> promise any degree of uptime. We will do our best to have this service online and functioning during the entire time period, but there are cases where the service may experience interruptions that are outside of our control. We will keep you informed of any outages that may affect your training.</p>
+<p>We <em>cannot</em> promise any degree of uptime. We will do our best to have this service online and functioning during the entire time period of the training, but there are cases where the service may experience interruptions that are outside of our control. We will keep you informed of any outages that may affect your training.</p>
 
 <h2 id="eligibility">Eligibility</h2>
 
-<p>We have enough capacity to provide for trainings using our service. Anyone providing training on Galaxy is eligible to request the use of this service.</p>
+<p>Anyone wanting to provide training on Galaxy BE is eligible to request the use of this service.</p>
 
 <h2 id="application-process">Application Process</h2>
 
@@ -79,12 +83,11 @@ your workshop, then some of the <a href="https://usegalaxy.be/libraries/folders/
 
     <p>Please try to submit your application <strong>at least two weeks in advance of the training</strong>.</p>
   </li>
-  <li>With the information that you input in the form, we will:
+  <li>Get approval from the Galaxy BE admins, after which you will receive:
     <ul>
-      <li>Test the training material you plan on using,</li>
-      <li>Give you a URL your users will access to join the training,</li>
-      <li>give you a URL to the dashboard for you to see the queue status.</li>
+      <li>the URL your users will access to join the training,</li>
+      <li>the URL to the dashboard for you to see the progress of your trainees.</li>
     </ul>
   </li>
-  <li>Done! You are ready to run your training!</li>
+  <li>Done! You are ready to give your training!</li>
 </ol>
