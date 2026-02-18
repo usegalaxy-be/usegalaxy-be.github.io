@@ -71,7 +71,7 @@ your workshop, the trainees can fetch the example input data themselves as expla
 
 <h2 id="Availability">Availability</h2>
 
-<p>Anyone wanting to provide training on Galaxy BE is eligible to request the use of this service.</p>
+<p>Anyone wanting to provide training on the Belgian Galaxy server is eligible to request the use of this service.</p>
 
 <h2 id="application-process">Application Process</h2>
 
