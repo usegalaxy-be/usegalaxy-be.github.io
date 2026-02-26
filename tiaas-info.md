@@ -48,7 +48,7 @@ your workshop, the trainees can fetch the example input data themselves as expla
   </li>
 </ul>
 
-<p>We recommend to use Galaxy’s default storage location during the training. This will help us in cleaning up unused data and offer Galaxy as a more sustainable service. To see which storage location is in use for your history, click on the <code class="language-plaintext highlighter-rouge">Preferred Storage Location</code> on the right panel (History panel).
+<p>We ask that unused and unnecessary data is cleaned up after the training, helping us offer Galaxy as a more sustainable service. To see which storage location is in use for your history, click on the <code class="language-plaintext highlighter-rouge">Preferred Storage Location</code> on the right panel (History panel).
 
 <p>You can learn more about managing storage options on the <a href="https://training.galaxyproject.org/training-material/faqs/galaxy/manage_your_galaxy_storage.html#tip-what-can-you-do-after-you-connected-a-storage">Galaxy Training Network page</a>.</p>
 
