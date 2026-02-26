@@ -44,7 +44,7 @@ your workshop, then some of the <a href="https://usegalaxy.be/libraries/folders/
 your workshop, the trainees can fetch the example input data themselves as explained in the respective GTN guide. If you want to avoid potential temporary file transfer failures, you could provide the trainees with the data yourself beforehand as explained in the next point.</p>
   </li>
   <li>
-    <p>If you are using your own data, you can upload it to your account into a history. Later, you can <a href="https://usegalaxy.be/histories/sharing">make it accessible</a> to your trainees. Your trainees will then be able to <a href="https://usegalaxy.be/histories/import">import your history</a> and start working with your data.</p>
+    <p>If you are using your own data, you can upload it to your account into a history. Later, you can <a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html">make it accessible</a> to your trainees. Your trainees will then be able to <a href="https://usegalaxy.be/histories/import">import your history</a> and start working with your data.</p>
   </li>
 </ul>
 
