@@ -59,7 +59,7 @@ your workshop, the trainees can fetch the example input data themselves as expla
 <p>To keep running this free service for your trainees, <strong>we would like to ask your feedback and support</strong>. It would be great if you could:</p>
 
 <ul>
-  <li>Send us a (short) testimonial about your experience with the provided TIaaS to <a href="mailto:datacore.galaxy@vib.be">datacore.galaxy@vib.be</a>.</li>
+  <li>Send us a (short) testimonial about your experience with the provided TIaaS to datacore.galaxy(at)vib.be.</li>
   <li>If GTN material helped you in your training, please make sure to fill out the general <a href="https://galaxyproject.org/news/2020-01-training-feedback/"><strong>GTN Survey</strong></a>.</li>
   <li>If you used a GTN tutorial in your training, please fill in the feedback form that can be found at the end of every GTN tutorial.</li>
   <!-- <li>Post your training experience on social media tagging @galaxyproject or #galaxyproject.</li> -->
