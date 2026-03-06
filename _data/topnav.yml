@@ -26,7 +26,7 @@ subitems:
       # icon: screwdriver-wrench
       # icon_type: solid
     - title: Training Infrastructure as a Service
-      url: /request-tiaas
+      url: /tiaas-info
       # icon: graduation-cap
       # icon_type: solid
     - hr: true
