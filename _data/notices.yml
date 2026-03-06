@@ -64,4 +64,10 @@
 #     - message: |
 #         Due to a training planned on 15.05.2023 traffic on usegalaxy.be can potentially be slow. Jobs submitted by users not part of the training are in a lower priority queue.
 
+ - title: Degraded performance
+   class: warning  # one of [success, info, warning, danger]
+   messages:
+     - message: |
+         The performance of useGalaxy.be is currently degraded. We apologize for any inconvenience caused.
 
+ 
