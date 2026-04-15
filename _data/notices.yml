@@ -10,7 +10,7 @@
   messages:
      - message: |
            UseGalaxy.be will be briefly unavailable (approximately 5-10 minutes) during this window for a planned database server upgrade. The exact time of the interruption within the window will depend on operational progress.
-           Jobs already running at the time of the interruption will continue executing on the compute nodes and will report back once the service is restored. No job data will be lost.
+           Jobs already running at the time of the interruption will continue executing on the compute nodes and will be updated once the service is restored. No job data will be lost.
            We apologize for the inconvenience.
 
 # - title: Change to Tier-1 Data as default storage backend scheduled on 19-05-2025, between 14:00:00 (CEST) and 20:00:00 (CEST)
