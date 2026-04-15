@@ -5,6 +5,14 @@
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 
 
+- title: Scheduled maintenance — Friday 17 April, 14:00 - 18:00 CEST
+  class: info  # one of [success, info, warning, danger]
+  messages:
+     - message: |
+           UseGalaxy.be will be briefly unavailable (approximately 5-10 minutes) during this window for a planned database server upgrade. The exact time of the interruption within the window will depend on operational progress.
+           Jobs already running at the time of the interruption will continue executing on the compute nodes and will be updated once the service is restored. No job data will be lost.
+           We apologize for the inconvenience.
+
 # - title: Change to Tier-1 Data as default storage backend scheduled on 19-05-2025, between 14:00:00 (CEST) and 20:00:00 (CEST)
 #   class: info  # one of [success, info, warning, danger]
 #   messages:
@@ -17,7 +25,7 @@
  #      - message: |
  #          Issues with LS Login is available again.
  
- # - title: Possible Service Interruption due to ISP maintenace on 19-11-2024, between 20:00:00 (CEST) and 23:59:59 (CEST)
+ # - title: Possible Service Interruption due to ISP maintenance on 19-11-2024, between 20:00:00 (CEST) and 23:59:59 (CEST)
  #   class: warning  # one of [success, info, warning, danger]
  #   messages:
  #      - message: |
@@ -39,13 +47,13 @@
 #  class: success     # one of [success, info, warning, danger]
 #  messages:
 #      - message: |
-#          UseGalaxy.be has been updated succesfully.
+#          UseGalaxy.be has been updated successfully.
 
 # - title: Legacy reference data temporarily unavailable
 #   class: info     # one of [success, info, warning, danger]
 #   messages:
 #       - message: |
-#           We're currently looking into moving legacy reference data to a more stable share and is therefore temporarilly unavailable. All other reference data hosted on CVMFS will stay available.
+#           We're currently looking into moving legacy reference data to a more stable share and is therefore temporarily unavailable. All other reference data hosted on CVMFS will stay available.
 
 
 # - title: Possible Service Interruption Today (30-10-2024) between 15:30 (CEST) and 16:00 (CEST) 
@@ -62,6 +70,6 @@
 #   class: info  # one of [success, info, warning, danger]
 #   messages:
 #     - message: |
-#         Due to a training planned on 15.05.2023 traffic on usegalaxy.be can potentially be slow. Jobs submitted by users not part of the training are in a lower priority queue.
+#         Due to a training planned on 15.05.2023 traffic on UseGalaxy.be can potentially be slow. Jobs submitted by users not part of the training are in a lower priority queue.
 
  
