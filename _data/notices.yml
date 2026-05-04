@@ -5,8 +5,8 @@
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 
 - title: Urgent maintenance — Monday 04 May, 16:00 - 18:00 CEST
- class: info  # one of [success, info, warning, danger]
- messages:
+  class: info  # one of [success, info, warning, danger]
+  messages:
     - message: |
           UseGalaxy.be will be unavailable during the above time window for a critical security patch.
           During this window the Galaxy web interface and job submission will be unavailable. 
