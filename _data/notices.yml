@@ -4,6 +4,11 @@
 #       - message: |
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 
+- title: Failed job submission pop-up message
+  class: warning  # one of [success, info, warning, danger]
+  messages:
+      - message: |
+          When submitting jobs, you may encounter a 'Job submission failed' message even though your jobs are successfully submitted. You can simply close the message to dismiss it. This is a known bug and we are working to resolve it. We apologize for the inconvenience.
 
 #- title: Scheduled maintenance — Friday 17 April, 14:00 - 18:00 CEST
 #  class: info  # one of [success, info, warning, danger]
