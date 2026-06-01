@@ -12,11 +12,11 @@
 #           During this window the Galaxy web interface and job submission will be unavailable. 
 #           Jobs already running at the start of the maintenance window will be paused and resume automatically after the platform comes back online.
           
-- title: Failed job submission pop-up message
-  class: warning  # one of [success, info, warning, danger]
-  messages:
-      - message: |
-          When submitting jobs, you may encounter a 'Job submission failed' message even though your jobs are successfully submitted. You can simply close the message to dismiss it. This is a known bug and we are working to resolve it. We apologize for the inconvenience.
+# - title: Failed job submission pop-up message
+#   class: warning  # one of [success, info, warning, danger]
+#   messages:
+#       - message: |
+#           When submitting jobs, you may encounter a 'Job submission failed' message even though your jobs are successfully submitted. You can simply close the message to dismiss it. This is a known bug and we are working to resolve it. We apologize for the inconvenience.
 
 #- title: Scheduled maintenance — Friday 17 April, 14:00 - 18:00 CEST
 #  class: info  # one of [success, info, warning, danger]
@@ -50,11 +50,13 @@
 #     - message: |
 #         Due to updates to the Galaxy configuration, a short outage is possible during the mentioned time. 
 
-# - title: Intermittent outages resolved
-#   class: success  # one of [success, info, warning, danger]
-#   messages:
-#     - message: |
-#         The issues have been resolved and job submission is unlocked again. Apologies for any inconvenience caused. 
+- title: Storage service disruption
+  class: danger  # one of [success, info, warning, danger]
+  messages:
+    - message: |
+        Storage disruption. usegalaxy.be is currently unable to reach its data storage service. This affects running jobs, uploads,
+        and access to existing datasets. We have notified the storage provider and will update this notice when resolved.
+ 
 
 # - title: UseGalaxy.be has been updated to 25.0
 #  class: success     # one of [success, info, warning, danger]
