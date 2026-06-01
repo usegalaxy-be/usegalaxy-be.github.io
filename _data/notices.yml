@@ -50,12 +50,11 @@
 #     - message: |
 #         Due to updates to the Galaxy configuration, a short outage is possible during the mentioned time. 
 
-- title: Storage service disruption
-  class: danger  # one of [success, info, warning, danger]
+- title: Storage service disruption resolved
+  class: success  # one of [success, info, warning, danger]
   messages:
     - message: |
-        Storage disruption. usegalaxy.be is currently unable to reach its data storage service. This affects running jobs, uploads,
-        and access to existing datasets. We have notified the storage provider and will update this notice when resolved.
+         The issue affecting data storage has been resolved. Jobs, uploads, and dataset access should be working normally again. We'll keep monitoring the situation. We apologize for the disruption.
  
 
 # - title: UseGalaxy.be has been updated to 25.0
