@@ -11,11 +11,11 @@
 ################
 # Info notices #
 ################
-- title: Scheduled maintenance on Saturday 11th of July
+- title: Scheduled maintenance on Saturday 11 July
   class: info  # one of [success, info, warning, danger]
   messages:
      - message: |
-          UseGalaxy.be will be unavailable during this window because of a planned Disaster Recovery Procedure from our infrastructure providers VSC Tier1 Cloud.
+          UseGalaxy.be will be unavailable throughout that day because of a planned Disaster Recovery Procedure from our infrastructure providers.
           Jobs already running at the time of the interruption will continue executing on the compute nodes and will be updated once the service is restored. No job data will be lost.
           We apologize for the inconvenience.
 # - title: Scheduled maintenance — Friday 17 April, 14:00 - 18:00 CEST
