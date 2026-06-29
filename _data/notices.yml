@@ -1,9 +1,37 @@
+# In this file, you can add notices that will be displayed on the UseGalaxy.be homepage as a banner at the top of the center panel. 
+# General example:
+#
 # - title: Example Event
 #   class: danger     # one of [success, info, warning, danger]
 #   messages:
 #       - message: |
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
-
+#
+# Examples of the four categories and how they have been used in the past are kept below. 
+################
+# Info notices #
+################
+- title: Scheduled maintenance on Saturday 11th of July
+  class: info  # one of [success, info, warning, danger]
+  messages:
+     - message: |
+          UseGalaxy.be will be unavailable during this window because of a planned Disaster Recovery Procedure from our infrastructure providers VSC Tier1 Cloud.
+          Jobs already running at the time of the interruption will continue executing on the compute nodes and will be updated once the service is restored. No job data will be lost.
+          We apologize for the inconvenience.
+# - title: Scheduled maintenance — Friday 17 April, 14:00 - 18:00 CEST
+#   class: info  # one of [success, info, warning, danger]
+#   messages:
+#      - message: |
+#            UseGalaxy.be will be briefly unavailable (approximately 5-10 minutes) during this window for a planned database server upgrade. The exact time of the interruption within the window will depend on operational progress.
+#            Jobs already running at the time of the interruption will continue executing on the compute nodes and will be updated once the service is restored. No job data will be lost.
+#            We apologize for the inconvenience.
+#
+# - title: Change to Tier-1 Data as default storage backend scheduled on 19-05-2025, between 14:00:00 (CEST) and 20:00:00 (CEST)
+#   class: info  # one of [success, info, warning, danger]
+#   messages:
+#      - message: |
+#          The default storage backend is changing to [VSC Tier-1 Data](https://docs.vscentrum.be/data/tier1data/introduction.html), which is an iRODS backend with built in data duplication. There won't be any noticeable impact for you.
+#
 # - title: Urgent maintenance — Monday 04 May, 16:00 - 18:00 CEST
 #   class: info  # one of [success, info, warning, danger]
 #   messages:
@@ -11,79 +39,66 @@
 #           UseGalaxy.be will be unavailable during the above time window for a critical security patch.
 #           During this window the Galaxy web interface and job submission will be unavailable. 
 #           Jobs already running at the start of the maintenance window will be paused and resume automatically after the platform comes back online.
-          
-# - title: Failed job submission pop-up message
-#   class: warning  # one of [success, info, warning, danger]
-#   messages:
-#       - message: |
-#           When submitting jobs, you may encounter a 'Job submission failed' message even though your jobs are successfully submitted. You can simply close the message to dismiss it. This is a known bug and we are working to resolve it. We apologize for the inconvenience.
-
-#- title: Scheduled maintenance — Friday 17 April, 14:00 - 18:00 CEST
-#  class: info  # one of [success, info, warning, danger]
-#  messages:
-#     - message: |
-#           UseGalaxy.be will be briefly unavailable (approximately 5-10 minutes) during this window for a planned database server upgrade. The exact time of the interruption within the window will depend on operational progress.
-#           Jobs already running at the time of the interruption will continue executing on the compute nodes and will be updated once the service is restored. No job data will be lost.
-#           We apologize for the inconvenience.
-
-# - title: Change to Tier-1 Data as default storage backend scheduled on 19-05-2025, between 14:00:00 (CEST) and 20:00:00 (CEST)
-#   class: info  # one of [success, info, warning, danger]
-#   messages:
-#      - message: |
-#          The default storage backend is changing to [VSC Tier-1 Data](https://docs.vscentrum.be/data/tier1data/introduction.html), which is an iRODS backend with built in data duplication. There won't be any noticeable impact for you.
-
- # - title: Life Science Login available again
- #   class: success  # one of [success, info, warning, danger]
- #   messages:
- #      - message: |
- #          Issues with LS Login is available again.
- 
- # - title: Possible Service Interruption due to ISP maintenance on 19-11-2024, between 20:00:00 (CEST) and 23:59:59 (CEST)
- #   class: warning  # one of [success, info, warning, danger]
- #   messages:
- #      - message: |
- #          Due to ISP maintenance outage is expected during the mentioned time
-        
-# - title: Possible service disruption due to Galaxy upgrade to v26.0 scheduled on Wednesday 13th of May 2026, between 13:00:00 (CEST) and 20:00:00 (CEST).
-#   class: info  # one of [success, info, warning, danger]
-#   messages:
-#     - message: |
-#         Due to updates to the Galaxy configuration, a short outage is possible during the mentioned time. 
-
-# - title: Storage service disruption resolved
-#   class: success  # one of [success, info, warning, danger]
-#   messages:
-#     - message: |
-#          The issue affecting data storage has been resolved. Jobs, uploads, and dataset access should be working normally again. We'll keep monitoring the situation. We apologize for the disruption.
- 
-
-# - title: UseGalaxy.be has been updated to 25.0
-#  class: success     # one of [success, info, warning, danger]
-#  messages:
-#      - message: |
-#          UseGalaxy.be has been updated successfully.
-
-# - title: Legacy reference data temporarily unavailable
-#   class: info     # one of [success, info, warning, danger]
-#   messages:
-#       - message: |
-#           We're currently looking into moving legacy reference data to a more stable share and is therefore temporarily unavailable. All other reference data hosted on CVMFS will stay available.
-
-
-# - title: Possible Service Interruption Today (30-10-2024) between 15:30 (CEST) and 16:00 (CEST) 
-#   class: danger  # one of [success, info, warning, danger]
-#   messages:
-#     - message: |
-#         Due updates to the configuration a short outage is expected during the mentioned time
-
-        
-# Due to maintenance work by our Internet Service Provider there is a possibility of interruption of access to UseGalaxy.be during the above mentioned period.
-# Please ensure that data transfers in and out of UseGalaxy.be are completed prior to the mentioned window.
-        
+#
 # - title: Training 15.05.2023
 #   class: info  # one of [success, info, warning, danger]
 #   messages:
 #     - message: |
 #         Due to a training planned on 15.05.2023 traffic on UseGalaxy.be can potentially be slow. Jobs submitted by users not part of the training are in a lower priority queue.
-
- 
+#
+# Due to maintenance work by our Internet Service Provider there is a possibility of interruption of access to UseGalaxy.be during the above mentioned period.
+# Please ensure that data transfers in and out of UseGalaxy.be are completed prior to the mentioned window.
+#
+# - title: Possible service disruption due to Galaxy upgrade to v26.0 scheduled on Wednesday 13th of May 2026, between 13:00:00 (CEST) and 20:00:00 (CEST).
+#   class: info  # one of [success, info, warning, danger]
+#   messages:
+#     - message: |
+#         Due to updates to the Galaxy configuration, a short outage is possible during the mentioned time. 
+#
+# - title: Legacy reference data temporarily unavailable
+#   class: info     # one of [success, info, warning, danger]
+#   messages:
+#       - message: |
+#           We're currently looking into moving legacy reference data to a more stable share and is therefore temporarily unavailable. All other reference data hosted on CVMFS will stay available.
+###################
+# Warning notices #
+###################          
+# - title: Failed job submission pop-up message
+#   class: warning  # one of [success, info, warning, danger]
+#   messages:
+#       - message: |
+#           When submitting jobs, you may encounter a 'Job submission failed' message even though your jobs are successfully submitted. You can simply close the message to dismiss it. This is a known bug and we are working to resolve it. We apologize for the inconvenience.
+#
+# - title: Possible Service Interruption due to ISP maintenance on 19-11-2024, between 20:00:00 (CEST) and 23:59:59 (CEST)
+#   class: warning  # one of [success, info, warning, danger]
+#   messages:
+#      - message: |
+#          Due to ISP maintenance outage is expected during the mentioned time
+###################
+# Success notices #
+###################         
+# - title: Life Science Login available again
+#   class: success  # one of [success, info, warning, danger]
+#   messages:
+#      - message: |
+#          Issues with LS Login is available again.
+#        
+# - title: Storage service disruption resolved
+#   class: success  # one of [success, info, warning, danger]
+#   messages:
+#     - message: |
+#          The issue affecting data storage has been resolved. Jobs, uploads, and dataset access should be working normally again. We'll keep monitoring the situation. We apologize for the disruption.
+#
+# - title: UseGalaxy.be has been updated to 25.0
+#  class: success     # one of [success, info, warning, danger]
+#  messages:
+#      - message: |
+#          UseGalaxy.be has been updated successfully.
+##################
+# Danger notices #
+##################  
+# - title: Possible Service Interruption Today (30-10-2024) between 15:30 (CEST) and 16:00 (CEST) 
+#   class: danger  # one of [success, info, warning, danger]
+#   messages:
+#     - message: |
+#         Due updates to the configuration a short outage is expected during the mentioned time        
