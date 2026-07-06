@@ -16,7 +16,7 @@
   messages:
      - message: |
           UseGalaxy.be will be unavailable throughout that day because of a planned Disaster Recovery Procedure from our infrastructure providers.
-          Jobs already running at the time of the interruption will continue executing on the compute nodes and will be updated once the service is restored. No job data will be lost.
+          While we do not expect further disruptions, jobs already running at the time of the interruption might fail.
           We apologize for the inconvenience.
 # - title: Scheduled maintenance — Friday 17 April, 14:00 - 18:00 CEST
 #   class: info  # one of [success, info, warning, danger]
