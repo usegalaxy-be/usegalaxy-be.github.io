@@ -11,13 +11,14 @@
 ################
 # Info notices #
 ################
-# - title: Scheduled maintenance on Saturday 11 July
-#  class: info  # one of [success, info, warning, danger]
-#  messages:
-#     - message: |
-#          UseGalaxy.be will be unavailable throughout that day because of a planned Disaster Recovery Procedure from our infrastructure providers.
-#          While we do not expect further disruptions, jobs already running at the time of the interruption might fail.
-#          We apologize for the inconvenience.
+- title: Scheduled maintenance on Thursday 27 August, 14:00-18:00.
+ class: info  # one of [success, info, warning, danger]
+ messages:
+    - message: |
+         We are upgrading the shared storage server behind Galaxy. 
+         During this window, both usegalaxy.be and test.usegalaxy.be will be unavailable for job submission and execution, 
+         and the web interface may also be unreachable.
+         Jobs running when maintenance starts may stall and need to be resubmitted afterwards. No data will be lost.
 # - title: Scheduled maintenance — Friday 17 April, 14:00 - 18:00 CEST
 #   class: info  # one of [success, info, warning, danger]
 #   messages:
