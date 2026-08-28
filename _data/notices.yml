@@ -11,14 +11,11 @@
 ################
 # Info notices #
 ################
-- title: Scheduled maintenance on Thursday 27 August, 14:00-18:00
-  class: info  # one of [success, info, warning, danger]
+- title: Shared storage server upgrade
+  class: success  # one of [success, info, warning, danger]
   messages:
     - message: |
-         We are upgrading the shared storage server behind Galaxy. 
-         During this window, both usegalaxy.be and test.usegalaxy.be will be unavailable for job submission and execution, 
-         and the web interface may also be unreachable.
-         Jobs running when maintenance starts may stall and need to be resubmitted afterwards. No data will be lost.
+         The shared storage server behind Galaxy has been successfully upgraded. 
 # - title: Scheduled maintenance — Friday 17 April, 14:00 - 18:00 CEST
 #   class: info  # one of [success, info, warning, danger]
 #   messages:
