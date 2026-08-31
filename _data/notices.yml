@@ -11,11 +11,11 @@
 ################
 # Info notices #
 ################
-- title: Shared storage server upgrade
-  class: success  # one of [success, info, warning, danger]
-  messages:
-    - message: |
-         The shared storage server behind Galaxy has been successfully upgraded. 
+# - title: Shared storage server upgrade
+#   class: success  # one of [success, info, warning, danger]
+#   messages:
+#     - message: |
+#          The shared storage server behind Galaxy has been successfully upgraded. 
 # - title: Scheduled maintenance — Friday 17 April, 14:00 - 18:00 CEST
 #   class: info  # one of [success, info, warning, danger]
 #   messages:
