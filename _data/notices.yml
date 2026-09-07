@@ -47,11 +47,11 @@
 # Due to maintenance work by our Internet Service Provider there is a possibility of interruption of access to UseGalaxy.be during the above mentioned period.
 # Please ensure that data transfers in and out of UseGalaxy.be are completed prior to the mentioned window.
 #
-# - title: Possible service disruption due to Galaxy upgrade to v26.0 scheduled on Wednesday 13th of May 2026, between 13:00:00 (CEST) and 20:00:00 (CEST).
-#   class: info  # one of [success, info, warning, danger]
-#   messages:
-#     - message: |
-#         Due to updates to the Galaxy configuration, a short outage is possible during the mentioned time. 
+- title: Possible service disruption due to Galaxy upgrade to v26.1 scheduled for Monday 14th of September 2026, between 13:00:00 (CEST) and 20:00:00 (CEST).
+  class: info  # one of [success, info, warning, danger]
+  messages:
+    - message: |
+        Due to updates to the Galaxy configuration, a short outage is possible during the mentioned time. 
 #
 # - title: Legacy reference data temporarily unavailable
 #   class: info     # one of [success, info, warning, danger]
