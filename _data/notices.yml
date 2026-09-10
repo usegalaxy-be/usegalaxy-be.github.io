@@ -67,11 +67,13 @@
 #       - message: |
 #           When submitting jobs, you may encounter a 'Job submission failed' message even though your jobs are successfully submitted. You can simply close the message to dismiss it. This is a known bug and we are working to resolve it. We apologize for the inconvenience.
 #
-# - title: Possible Service Interruption due to ISP maintenance on 19-11-2024, between 20:00:00 (CEST) and 23:59:59 (CEST)
-#   class: warning  # one of [success, info, warning, danger]
-#   messages:
-#      - message: |
-#          Due to ISP maintenance outage is expected during the mentioned time
+- title: Possible Service Interruption due to Cloud provider maintenance on Monday 14 (starting 20:00 CET) till Tuesday 15 September 2026
+  class: warning  # one of [success, info, warning, danger]
+  messages:
+     - message: |
+         Please be advised that the VSC Tier1 Cloud infrastructure will be offline from Monday 14 (starting 20:00 CET) till Tuesday 15 September 2026.
+         This is to accommodate a planned power outage to the datacenter hosting the Tier1 Cloud infrastructure.
+
 ###################
 # Success notices #
 ###################         
