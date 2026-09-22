@@ -91,11 +91,11 @@
 #     - message: |
 #          The issue affecting data storage has been resolved. Jobs, uploads, and dataset access should be working normally again. We'll keep monitoring the situation. We apologize for the disruption.
 #
-- title: UseGalaxy.be has been updated to 26.1
-  class: success     # one of [success, info, warning, danger]
-  messages:
-    - message: |
-        UseGalaxy.be has been updated successfully.
+#- title: UseGalaxy.be has been updated to 26.1
+#  class: success     # one of [success, info, warning, danger]
+#  messages:
+#    - message: |
+#        UseGalaxy.be has been updated successfully.
 ##################
 # Danger notices #
 ##################  
