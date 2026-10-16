@@ -60,7 +60,7 @@
 #   messages:
 #       - message: |
 #           We're currently looking into moving legacy reference data to a more stable share and is therefore temporarily unavailable. All other reference data hosted on CVMFS will stay available.
-- title: "Scheduled maintenance: Friday 16 October, 10:00 - 13:00 CEST"
+- title: "Scheduled maintenance: Friday 16 October, 10:00 - 15:00 CEST"
   class: info  # one of [success, info, warning, danger]
   messages:
     - message: |
