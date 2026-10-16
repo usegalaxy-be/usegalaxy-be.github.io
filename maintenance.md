@@ -21,6 +21,8 @@ title: Scheduled Maintenance
   <p>
     The status of useGalaxy.be and other Galaxy servers is shown on
     <a href="https://status.galaxyproject.org/">status.galaxyproject.org</a>.
+    Planned maintenance and disruptions of VIB Data Core services are announced on
+    <a href="https://vib-data-core.github.io/status/">VIB Data Core Announcements</a>.
   </p>
 
   <p style="color:#6c757d;font-size:.9rem">
