@@ -60,14 +60,14 @@
 #   messages:
 #       - message: |
 #           We're currently looking into moving legacy reference data to a more stable share and is therefore temporarily unavailable. All other reference data hosted on CVMFS will stay available.
-- title: "Scheduled maintenance: Friday 16 October, 10:00 - 15:00 CEST"
-  class: info  # one of [success, info, warning, danger]
-  messages:
-    - message: |
-        UseGalaxy.be will be briefly unavailable a few times during this window, for a few minutes each, while we install security updates and restart our servers.
-        Jobs already running will continue on the compute nodes and will be updated once the service is back. No job data will be lost.
-        Uploads or downloads in progress during a restart may be interrupted, so please plan large transfers outside this window.
-        We apologize for the inconvenience.
+# - title: "Scheduled maintenance: Friday 16 October, 10:00 - 15:00 CEST"
+#   class: info  # one of [success, info, warning, danger]
+#   messages:
+#     - message: |
+#         UseGalaxy.be will be briefly unavailable a few times during this window, for a few minutes each, while we install security updates and restart our servers.
+#         Jobs already running will continue on the compute nodes and will be updated once the service is back. No job data will be lost.
+#         Uploads or downloads in progress during a restart may be interrupted, so please plan large transfers outside this window.
+#         We apologize for the inconvenience.
 
 ###################
 # Warning notices #
