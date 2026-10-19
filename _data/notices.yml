@@ -69,6 +69,15 @@
 #         Uploads or downloads in progress during a restart may be interrupted, so please plan large transfers outside this window.
 #         We apologize for the inconvenience.
 
+- title: "Scheduled maintenance: Friday 30 October, 12:00 - 16:00 CET"
+  class: info  # one of [success, info, warning, danger]
+  messages:
+    - message: |
+        UseGalaxy.be will be unreachable once during this window, for about a minute, while we switch to a new web server.
+        Jobs keep running and Galaxy itself is not restarted. No job data will be lost.
+        Uploads or downloads in progress at that moment may be interrupted, so please plan large transfers outside this window.
+        We apologize for the inconvenience.
+
 ###################
 # Warning notices #
 ###################          
