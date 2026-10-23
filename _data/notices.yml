@@ -69,7 +69,7 @@
 #         Uploads or downloads in progress during a restart may be interrupted, so please plan large transfers outside this window.
 #         We apologize for the inconvenience.
 
-- title: "Scheduled maintenance: Friday 23 October, 12:00 - 16:00 CEST"
+- title: "Scheduled maintenance: Monday 26 October, 14:00 - 18:00 CEST"
   class: info  # one of [success, info, warning, danger]
   messages:
     - message: |
