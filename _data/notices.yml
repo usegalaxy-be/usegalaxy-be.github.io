@@ -127,6 +127,6 @@
   class: warning  # one of [success, info, warning, danger]
   messages:
     - message: |
-        On Friday 30 October, UseGalaxy.be is hosting a hands-on training. During the training, compute capacity is prioritized for the course.
-        Small jobs, such as uploads, run as usual. Larger jobs may wait longer in the queue and run slower until the training has ended. 
+        On Friday 30 October, UseGalaxy.be is hosting a hands-on training. Between 08:00 and 20:00 (CET), compute capacity is prioritized for the course.
+        Small jobs, such as uploads, run as usual. Larger jobs may wait longer in the queue and run slower until 20:00. 
         Waiting jobs are not lost: they start automatically afterwards.
