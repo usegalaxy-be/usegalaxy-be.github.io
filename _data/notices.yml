@@ -122,3 +122,10 @@
 #   messages:
 #     - message: |
 #         Due updates to the configuration a short outage is expected during the mentioned time        
+
+- title: Training on Friday 30 October
+  class: warning  # one of [success, info, warning, danger]
+  messages:
+    - message: |
+        On Friday 30 October, UseGalaxy.be hosts a hands-on training for about 50 students. During the training, most of our compute capacity goes to the course.
+        Small jobs, such as uploads, run as usual. Larger jobs may wait longer in the queue and run slower until the training has ended. Waiting jobs are not lost: they start automatically afterwards.
